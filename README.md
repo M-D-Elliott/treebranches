@@ -36,8 +36,14 @@ Folder functions:
 File functions:
 * Paste Here (in parent folder)
 
+Trash functiuons:
+* Empty
+* Restore (trashed folders/files)
+
 These functions are primarily controlled through a context-menu system activated by the right click.
 This context menu offers commands and sub-commands for the user to perform.
+The context menu morphs depending on the object selected, as well as the location of the object.
+
 For more advanced users the context menu can be bypassed using hotkeys. All the standards:
 * N - new folder (create in or create here)
 * F - new file
