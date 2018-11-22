@@ -1,0 +1,10 @@
+{% extends "myfiles/basic_context_menu.html" %}
+
+{% block type %}trash{% endblock %}
+{% block run_options %}
+<p class="menu-icon {{ serial }}">Empty Trash</p>
+<div class="divider"></div>
+{{ block.super }}
+{% endblock %}
+{% block crud_options %}
+{% endblock %}

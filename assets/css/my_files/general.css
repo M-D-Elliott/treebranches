@@ -1,0 +1,16 @@
+body {
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+
+#navbar {
+    z-index: 10;
+}
+
+.my-projects-wrapper {
+    position: relative;
+}
+
+.my-projects-page {
+	margin-top: 20px;
+}

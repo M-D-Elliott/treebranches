@@ -1,0 +1,8 @@
+{% extends "myfiles/basic_context_menu.html" %}
+
+{% block type %}folder{% endblock %}
+{% block extra_options %}
+<p class="menu-icon {{ serial }}">New Folder</p>
+<p class="menu-icon {{ serial }}">New File</p>
+<div class="divider"></div>
+{% endblock %}

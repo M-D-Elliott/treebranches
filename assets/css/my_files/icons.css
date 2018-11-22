@@ -1,0 +1,70 @@
+.container-icon {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    flex-direction: row;
+
+    -webkit-box-pack: left;
+    -moz-box-pack: left;
+    box-pack: left;
+    justify-content: left;
+
+    -webkit-box-align: stretch;
+    -moz-box-align: stretch;
+    box-align: stretch;
+    align-items: stretch;
+
+    height: 1.5em;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    background-color: rgba(0, 0, 0, 0);
+    visibility: visible;
+    z-index: 3;
+}
+
+.arrow-icon,
+.folder-icon,
+.file-icon,
+.blank-icon {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 4px;
+    margin: 0px 2px;
+    object-fit: contain;
+    display: inline-block;
+    z-index: 3;
+}
+
+.name-icon {
+    padding-top: 2px;
+    width: auto;
+    height: auto;
+    cursor: context-menu;
+    object-fit: contain;
+    display: inline-block;
+    z-index: 3;
+}
+
+.file-icon,
+.folder-icon {
+    cursor: context-menu;
+}
+
+div[data-selected="true"] {
+    color: white;
+}
+
+.selector {
+    background: #09A303;
+    min-height: 26px;
+    z-index: 2;
+    min-width: 100%;
+    position: absolute;
+}

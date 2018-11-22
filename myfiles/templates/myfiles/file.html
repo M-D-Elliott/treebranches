@@ -1,0 +1,28 @@
+{% load static from staticfiles %}
+{% load myFiles_extras %}
+
+{% hide_all file as block_or_none %}
+<div id="file-{{ file.id }}"
+     class="file-container {{ serial }}"
+     style="display: {{ block_or_none }}"
+     data-object-id="file-{{ file.id }}"
+     data-path="{{ current_path }}"
+     data-selected=false
+     data-type="file"
+     data-name="{{ file.name }}"
+     data-ext="{{ file.ext }}"
+     data-created="{{ folder.created_at }}"
+     data-modified="{{ folder.last_modified }}"
+
+     data-special="{{ file.special }}">
+    <div class="container-icon {{ serial }}"
+         data-object-ID="file-{{ file.id }}">
+        <div class="blank-icon"></div>
+        <input type="image" value="&nbsp;"
+               src="{% static 'img/icons/text_file.png' %}"
+               class="file-icon {{ serial }}"
+               data-object-ID="file-{{ file.id }}">
+        <div class="name-icon {{ serial }}"
+             data-object-ID="file-{{ file.id }}">&nbsp;{{ file.name }}.{{ file.ext }}</div>
+    </div>
+</div>

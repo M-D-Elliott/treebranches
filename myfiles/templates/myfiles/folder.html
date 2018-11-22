@@ -1,0 +1,41 @@
+{% load static from staticfiles %}
+{% load myFiles_extras %}
+
+{% hide_all folder as block_or_none %}
+<div id="folder-{{ folder.id }}"
+     class="folder-container {{ serial }}"
+     style="display: {{ block_or_none }};"
+     data-object-id="folder-{{ folder.id }}"
+     data-path="{{ current_path }}"
+     data-selected=false
+     data-type="folder"
+     data-name="{{ folder.name }}"
+     data-ext="{{ folder.ext }}"
+     data-created="{{ folder.created }}"
+     data-modified="{{ folder.modified }}"
+     data-form="collapsed"
+     data-sort="{{ folder.sort_term }}"
+     data-special="{{ folder.special }}">
+    <div class="container-icon {{ serial }}"
+         data-object-id="folder-{{ folder.id }}">
+        <input type="image" value="&nbsp;"
+               src="{% static 'img/icons/arrow_collapsed.png' %}"
+               class="arrow-icon {{ serial }}"
+               data-object-id="folder-{{ folder.id }}" />
+        <input type="image" value="&nbsp;"
+               src="{% static 'img/icons/' %}{{ 'extensions'|lookup:folder.ext }}_collapsed_empty.png"
+               class="folder-icon {{ serial }}"
+               data-object-id="folder-{{ folder.id }}" />
+        <div class="name-icon {{ serial }}"
+             data-object-id="folder-{{ folder.id }}">&nbsp;{{ folder.name }} :</div>
+    </div>
+    {% project_path current_path folder.id as current_path %}
+    {% sub_folders_of folder as sub_folders %}
+    {% for folder in sub_folders %}
+        {% include "myfiles/folder.html" %}
+    {% endfor %}
+    {% sub_files_of folder as files %}
+    {% for file in files %}
+        {% include "myfiles/file.html" %}
+    {% endfor %}
+</div>

@@ -1,0 +1,28 @@
+{% load myFiles_extras %}
+
+{% app_serial as serial %}
+
+<div class="context-menu-template"
+     data-type="{% block type %}{% endblock %}">
+    {% block run_options %}
+    <p class="menu-icon {{ serial }}">Expand</p>
+    <p class="menu-icon {{ serial }}">Collapse</p>
+    <div class="menu-icon menu-has-sub {{ serial }}">Sort By<span class="menu-arrow">></span>
+    {% with 'sort' as menu_name %}
+    {% include "myfiles/context_menus/sub_menu.html" %}
+    {% endwith %}
+    </div>
+    {% endblock %}
+    <div class="divider"></div>
+    {% block crud_options %}
+    <p class="menu-icon {{ serial }}">Rename</p>
+    <p class="menu-icon {{ serial }}">Delete</p>
+    <div class="divider"></div>
+    <p class="menu-icon {{ serial }}">Cut</p>
+    <p class="menu-icon {{ serial }}">Copy</p>
+    <p class="menu-icon {{ serial }}">Paste</p>
+    <div class="divider"></div>
+    {% endblock %}
+    {% block extra_options %}{% endblock %}
+    <p class="menu-icon {{ serial }}">Properties</p>
+</div>

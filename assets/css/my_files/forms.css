@@ -1,0 +1,15 @@
+.form {
+    z-index: 4;
+    height: 1.5em;
+    color: white;
+    display: inline-block;
+}
+
+.form .form-input {
+    border: 1px solid black;
+    background: #09A303;
+}
+
+form #data {
+    display: none;
+}

@@ -1,0 +1,25 @@
+{% extends "myfiles/layout.html" %}
+{% load myFiles_extras %}
+
+{% block title_tag %}{{ current_user_dir }} | {{ block.super }}{% endblock %}
+
+{% block project_contents %}
+<div class="col-md-4 {{ serial }}" id="system-folder">
+
+    {% get_project_root as folder %}
+    {% if folder %}
+    {% include "myfiles/folder.html" %}
+    {% endif %}
+    <br>
+    <br>
+    {% get_user_trash_bin as folder %}
+    {% include "myfiles/folder.html" %}
+    <br>
+    {% get_new_folder as folder %}
+    {% include "myfiles/folder.html" %}
+    {% get_new_file as file %}
+    {% include "myfiles/file.html" %}
+
+</div>
+{% include "myfiles/session.html" %}
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends "myfiles/basic_context_menu.html" %}
+
+{% block type %}in-trash{% endblock %}
+{% block run_options %}
+<p class="menu-icon {{ serial }}">Restore</p>
+{% endblock %}
+{% block crud_options %}
+<p class="menu-icon {{ serial }}">Cut</p>
+<p class="menu-icon {{ serial }}">Delete</p>
+<div class="divider"></div>
+{% endblock %}
+

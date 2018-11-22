@@ -1,0 +1,9 @@
+{% load myFiles_extras %}
+
+<div id= "{{ menu_name }}-menu" class="sub-menu">
+    {% with 'sub_menus'|lookup:menu_name as icons %}
+    {% for icon in icons %}
+    <p class="menu-icon {{ serial }}"><span class="hidden">{{ menu_name }}-</span>{{ icon }}</p>
+    {% endfor %}
+    {% endwith %}
+</div>

@@ -1,0 +1,15 @@
+{% load myFiles_extras %}
+
+<div class="{{ serial }}" id="session">
+    <div id="session-pk" style="display:block;">{{ session.id }}</div>
+    <p>session Found!</p>
+    <p>Created: {{ session.created }}</p>
+    <p>Updated: {{ session.last_updated }}</p>
+    <P>Last continued: {{ session.last_continued }}</P>
+    <div>Files:
+    {% open_session_files as open_files %}
+    {% for file in open_files %}
+        {% include "myfiles/open_file.html" %}
+    {% endfor %}
+    </div>
+</div>

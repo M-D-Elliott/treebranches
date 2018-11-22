@@ -1,0 +1,43 @@
+{% load static from staticfiles %}
+
+.folder-container:not([title="Trash Bin"])[data-state="collapsed"][data-filled="empty"] .folder-icon {
+    background: url("{% static 'img/icons/folder_collapsed_empty.png' %}") no-repeat;
+}
+
+.folder-container:not([title="Trash Bin"])[data-state="expanded"][data-filled="empty"] .folder-icon {
+    background: url("{% static 'img/icons/folder_expanded_empty.png' %}") no-repeat;
+}
+
+.folder-container:not([title="Trash Bin"])[data-state="collapsed"][data-filled="filled"] .folder-icon {
+    background: url("{% static 'img/icons/folder_collapsed_filled.png' %}") no-repeat;
+}
+
+.folder-container:not([title="Trash Bin"])[data-state="expanded"][data-filled="filled"] .folder-icon {
+    background: url("{% static 'img/icons/folder_expanded_filled.png' %}") no-repeat;
+}
+
+.folder-container[title="Trash Bin"][data-state="collapsed"] .folder-icon {
+    background: url("{% static 'img/icons/trash_collapsed_empty.png' %}") no-repeat;
+}
+
+.folder-container[title="Trash Bin"][data-state="expanded"][data-filled="empty"] .folder-icon {
+    background: url("{% static 'img/icons/trash_expanded_empty.png' %}") no-repeat;
+}
+
+.folder-container[title="Trash Bin"][data-state="expanded"][data-filled="filled"] .folder-icon {
+    background: url("{% static 'img/icons/trash_expanded_filled.png' %}") no-repeat;
+}
+
+.folder-container[data-state="collapsed"] .arrow-icon {
+    background: url("{% static 'img/icons/arrow_collapsed.png' %}") no-repeat;
+}
+
+.folder-container[data-state="expanded"] .arrow-icon {
+    background: url("{% static 'img/icons/arrow_expanded.png' %}") no-repeat;
+}
+
+.folder-icon,
+.arrow-icon {
+    width: 24px;
+    height: 24px;
+}

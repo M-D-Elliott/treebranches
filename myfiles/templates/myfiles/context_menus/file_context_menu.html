@@ -1,0 +1,8 @@
+{% extends "myfiles/basic_context_menu.html" %}
+
+{% block type %}file{% endblock %}
+{% block run_options %}
+{{ block.super }}
+<p class="menu-icon {{ serial }}">Open</p>
+{% endblock %}
+

@@ -1,0 +1,29 @@
+#system-folder {
+    max-height: 75vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background: white;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                          supported by Chrome and Opera */
+    overflow-y:scroll;
+    overflow-x:auto;
+    z-index: 1;
+}
+
+.folder-container,
+.file-container {
+    display: inline-block;
+    margin-left: 1.75em;
+    color: black;
+    z-index: 1;
+}
+
+[data-path$="://"] {
+    margin: 0;
+}

@@ -1,0 +1,104 @@
+{% extends "layout.html" %}
+{% load static from staticfiles %}
+{% load myFiles_extras %}
+
+{% block title_tag %}My Files | {{ block.super }}{% endblock %}
+
+{% block wrapper_class %}myfiles-wrapper{% endblock %}
+
+{% block stylesheets %}
+	{{ block.super }}
+	<link rel="stylesheet" href="{% static 'css/my_files/general.css' %}">
+	<link rel="stylesheet" href="{% static 'css/my_files/forms.css' %}">
+    <link rel="stylesheet" href="{% static 'css/my_files/containers.css' %}">
+	<link rel="stylesheet" href="{% static 'css/my_files/icons.css' %}">
+	<link rel="stylesheet" href="{% static 'css/my_files/context_menu.css' %}">
+
+{% endblock %}
+
+{% block body_content %}
+{% app_serial as serial %}
+<div id="my-projects-page" class="my-projects-page" oncontextmenu="return false;">
+	<div class="container">
+        <div class="row">
+            {% if request.user.is_authenticated %}
+            <p>{{ user.username|possessive }} projects</p>
+            <div id="my_projects_serial" data-serial="{{ serial }}" style="display:none;"></div>
+            <div id="username" style="display:none;">{{ user.username }}</div>
+            {% with "myProjects://" as current_path %}
+            {% block project_contents %}{% endblock %}
+            {% endwith %}
+            {% block session %}{% endblock %}
+            {% endif %}
+        </div>
+    </div>
+    <div style="display: none;" id="hidden">
+        {% csrf_token %}
+        {% include "myfiles/forms/post_form.html" %}
+        {% include "myfiles/forms/put_form.html" %}
+        {% include "myfiles/forms/delete_form.html" %}
+        {% include "myfiles/forms/rename_form.html" %}
+        {% include "myfiles/forms/copy_paste_form.html" %}
+        <div class="context-menu-template-wrapper {{ serial }}">
+        {% include "myfiles/context_menus/root_context_menu.html" %}
+        {% include "myfiles/context_menus/trash_context_menu.html" %}
+        {% include "myfiles/context_menus/folder_context_menu.html" %}
+        {% include "myfiles/context_menus/file_context_menu.html" %}
+        {% include "myfiles/context_menus/in_trash_context_menu.html" %}
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block plugins %}
+{{ block.super }}
+
+<!--Misc tools -->
+<script src="{% static 'js/tools/logErrorOrDefault.js' %}"></script>
+<script src="{% static 'js/tools/sessionReload.js' %}"></script>
+<script src="{% static 'js/tools/flagString.js' %}"></script>
+<script src="{% static 'js/tools/exists.js' %}"></script>
+<script src="{% static 'js/tools/jQ-flagObj.js' %}"></script>
+<script src="{% static 'js/tools/jQ-classList.js' %}"></script>
+<script src="{% static 'js/tools/jQ-toggleAttr.js' %}"></script>
+<script src="{% static 'js/tools/jQ-hasAttr.js' %}"></script>
+<script src="{% static 'js/tools/jQ-hasClasses.js' %}"></script>
+<script src="{% static 'js/tools/jQ-displayBlockFilter.js' %}"></script>
+
+<!--System-->
+<script src="{% static 'js/my_files/system/tools.js' %}"></script>
+
+<!--Global variable definitions -->
+<script src="{% static 'js/my_files/control_scripts/definitions.js' %}"></script>
+
+<!--Constructors and basic functions-->
+<script src="{% static 'js/my_files/system/dir_objects.js' %}"></script>
+<script src="{% static 'js/my_files/database/temporary.js' %}"></script>
+<script src="{% static 'js/my_files/system/select_functions.js' %}"></script>
+
+<!--Database Functions-->
+<script src="{% static 'js/my_files/database/ajax_functions.js' %}"></script>
+<script src="{% static 'js/my_files/database/crud_functions.js' %}"></script>
+<script src="{% static 'js/my_files/system/undo.js' %}"></script>
+
+<!--Folder/File Commands-->\
+<script src="{% static 'js/my_files/file_commands/open.js' %}"></script>
+<script src="{% static 'js/my_files/folder_commands/formation.js' %}"></script>
+<script src="{% static 'js/my_files/folder_commands/sort.js' %}"></script>
+<script src="{% static 'js/my_files/trash_commands/empty.js' %}"></script>
+<script src="{% static 'js/my_files/trash_commands/restore.js' %}"></script>
+<script src="{% static 'js/my_files/folder_and_file_commands/openContextMenu.js' %}"></script>
+<script src="{% static 'js/my_files/folder_and_file_commands/moveTo.js' %}"></script>
+<script src="{% static 'js/my_files/folder_commands/addObject.js' %}"></script>
+<script src="{% static 'js/my_files/folder_and_file_commands/rename.js' %}"></script>
+<script src="{% static 'js/my_files/folder_and_file_commands/cut_copy_paste_functions.js' %}"></script>
+<script src="{% static 'js/my_files/folder_and_file_commands/properties.js' %}"></script>
+
+<!--Event Handlers / Controllers-->
+<script src="{% static 'js/my_files/control_scripts/debug.js' %}"></script>
+<script src="{% static 'js/my_files/database/form_functions.js' %}"></script>
+<script src="{% static 'js/my_files/system/runCommand.js' %}"></script>
+<script src="{% static 'js/my_files/database/submit.js' %}"></script>
+<script src="{% static 'js/my_files/control_scripts/eventListeners.js' %}"></script>
+
+{% endblock %}

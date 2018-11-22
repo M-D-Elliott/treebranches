@@ -1,0 +1,46 @@
+#context-menu,
+.sub-menu{
+    all: initial;
+    color: white;
+    background-color: #076603;
+    border: 1px solid black;
+    cursor: context-menu;
+    position: absolute;
+    z-index: 4;
+    user-select: none;
+}
+
+#context-menu .menu-icon {
+    padding 2px;
+    margin: 2px 5px;
+    position: relative;
+}
+
+#context-menu .menu-icon .sub-menu {
+    display: none;
+    position: absolute;
+    left: 100%;
+}
+
+#context-menu .menu-has-sub:hover .sub-menu,
+#context-menu .menu-has-sub .sub-menu:hover {
+    display: inline;
+}
+
+#context-menu .menu-icon:hover {
+    background: #18FC0F;
+    color: black;
+    font-weight: 1000;
+}
+
+#context-menu .divider {
+    width: 92%;
+    margin: auto;
+    position: relative;
+    border-bottom: 1px solid white;
+}
+
+#context-menu .menu-arrow {
+    float: right;
+}
+
