@@ -5,10 +5,12 @@ from django.utils import timezone
 import pytz
 
 from . import managers
+from . import validators
 from .filters import dir_object_exact_filter
 
 
 class User(AbstractBaseUser, PermissionsMixin):
+    username_validator = validators.UsernameValidator()
     email = models.EmailField(unique=True)
     username = models.CharField(max_length=40, unique=True)
     display_name = models.CharField(max_length=140)

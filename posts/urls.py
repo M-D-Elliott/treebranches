@@ -6,12 +6,12 @@ urlpatterns = [
     url(r"^$", views.AllPosts.as_view(), name="all"),
     url(r"^new/$", views.CreatePost.as_view(), name="create"),
     url(
-        r"by/(?P<username>[-\w]+)/$",
+        r"by/(?P<username>[- \w]+)/$",
         views.UserPosts.as_view(),
         name="for_user"
     ),
     url(
-        r"by/(?P<username>[-\w]+)/(?P<pk>\d+)/$",
+        r"by/(?P<username>[- \w]+)/(?P<pk>\d+)/$",
         views.SinglePost.as_view(),
         name="single"
     ),

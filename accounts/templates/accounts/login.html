@@ -6,7 +6,7 @@
 {% block body_content %}
 <div class="container">
 	<h1>Log in:</h1>
-
+    <h4><a href="{% url 'accounts:signup' %}" class="btn btn-warning btn-fill">Create a new account?</a></h4>
 	<form method="POST">
 		{% csrf_token %}
 		{% bootstrap_form form %}
@@ -16,6 +16,5 @@
 <div class="container">
 	<br>
 	<br>
-	<h5><a href="{% url 'accounts:signup' %}" class="btn btn-default">Create a new account?</a></h5>
 </div>
 {% endblock %}
