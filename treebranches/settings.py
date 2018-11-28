@@ -25,7 +25,8 @@ SECRET_KEY = 'u8f9yuehjfoe9fj--djasdihanbne22e2adiaqdj12eh2c8j9218udf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['pythonmeek.pythonanywhere.com']
+ALLOWED_HOSTS = ['pythonmeek.pythonanywhere.com',
+                 '127.0.0.1']
 
 
 # Application definition
@@ -46,6 +47,7 @@ INSTALLED_APPS = [
     'communities',
     'myfiles',
     'posts',
+    'other_projects',
 ]
 
 MIDDLEWARE = [
@@ -127,7 +129,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'assets')
+# STATIC_ROOT = os.path.join(BASE_DIR, 'assets')
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'assets')]
 
 # User Model
 AUTH_USER_MODEL = "accounts.User"

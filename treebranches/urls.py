@@ -27,4 +27,5 @@ urlpatterns = [
     path('communities/', include(("communities.urls", "communities"), namespace="communities")),
     path('myfiles/', include(("myfiles.urls", "myfiles"), namespace="myfiles")),
     path('posts/', include(("posts.urls", "posts"), namespace="posts")),
+    path('other_projects/', include(("other_projects.urls", "other_projects"), namespace="other_projects")),
 ]

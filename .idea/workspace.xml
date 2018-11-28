@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61f9afa5-4e6e-4f2e-83e6-3b97218edb95" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/other_projects/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/treebranches/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/treebranches/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/treebranches/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/treebranches/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,74 +17,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myfiles/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myfiles/templates/myfiles/layout.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="project.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myfiles/templates/myfiles/project.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="session.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myfiles/templates/myfiles/session.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="open_file.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myfiles/templates/myfiles/open_file.html">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/other_projects/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="46" selection-start-column="46" selection-end-column="46" />
+              <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts/models.py">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/treebranches/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="46" column="25" lean-forward="true" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+            <state relative-caret-position="408">
+              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="philosophy.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/other_projects/templates/other_projects/philosophy.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="163" column="334" selection-start-line="163" selection-start-column="334" selection-end-line="163" selection-end-column="334" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/philosophy/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/other_projects/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
               <folding>
-                <element signature="e#0#29#0" expanded="true" />
+                <element signature="e#0#45#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myFiles_extras.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/myfiles/templatetags/myFiles_extras.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="30" column="97" selection-start-line="30" selection-start-column="97" selection-end-line="30" selection-end-column="97" />
             </state>
           </provider>
         </entry>
@@ -90,9 +69,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>temp</find>
-      <find>dir_object</find>
-      <find>remove</find>
       <find>project</find>
       <find>settings</find>
       <find>post</find>
@@ -108,7 +84,7 @@
       <find>is_valid</find>
       <find>to_representation</find>
       <find>build_nested_field</find>
-      <find>related fields</find>
+      <find />
       <find>related</find>
       <find>serializer_related_field</find>
       <find>run_validators</find>
@@ -120,6 +96,9 @@
       <find>User</find>
       <find>DEBUG</find>
       <find>print</find>
+      <find>ALLOWED</find>
+      <find>monoli</find>
+      <find>center</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -128,14 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assets/js/my_files/runCommand.js" />
-        <option value="$PROJECT_DIR$/myfiles/urls.py" />
-        <option value="$PROJECT_DIR$/assets/js/my_files/form_functions.js" />
-        <option value="$PROJECT_DIR$/assets/js/my_files/eventListeners.js" />
-        <option value="$PROJECT_DIR$/assets/js/my_files/folder_and_file_commands/moveTo.js" />
-        <option value="$PROJECT_DIR$/assets/js/my_files/folder_and_file_commands/openContextMenu.js" />
-        <option value="$PROJECT_DIR$/assets/js/my_files/definitions.js" />
-        <option value="$PROJECT_DIR$/assets/js/my_files/folder_commands/addObject.js" />
         <option value="$PROJECT_DIR$/assets/js/my_files/submit.js" />
         <option value="$PROJECT_DIR$/assets/js/my_files/crud_functions.js" />
         <option value="$PROJECT_DIR$/accounts/views.py" />
@@ -167,7 +138,6 @@
         <option value="$PROJECT_DIR$/myfiles/serializers.py" />
         <option value="$PROJECT_DIR$/assets/js/tools/jQ-blockSelector.js" />
         <option value="$PROJECT_DIR$/assets/js/tools/lol.js" />
-        <option value="$PROJECT_DIR$/treebranches/settings.py" />
         <option value="$PROJECT_DIR$/assets/js/tools/jQ-hasClasses.js" />
         <option value="$PROJECT_DIR$/myfiles/templates/myfiles/layout.html" />
         <option value="$PROJECT_DIR$/myfiles/admin.py" />
@@ -179,6 +149,15 @@
         <option value="$PROJECT_DIR$/myfiles/templates/myfiles/open_file.html" />
         <option value="$PROJECT_DIR$/myfiles/models.py" />
         <option value="$PROJECT_DIR$/myfiles/templatetags/myFiles_extras.py" />
+        <option value="$PROJECT_DIR$/philosophy_page/views.py" />
+        <option value="$PROJECT_DIR$/philosophy_page/templates/philosophy_page/index.html" />
+        <option value="$PROJECT_DIR$/philosophy_page/urls.py" />
+        <option value="$PROJECT_DIR$/treebranches/settings.py" />
+        <option value="$PROJECT_DIR$/other_projects/urls.py" />
+        <option value="$PROJECT_DIR$/treebranches/urls.py" />
+        <option value="$PROJECT_DIR$/other_projects/views.py" />
+        <option value="$PROJECT_DIR$/assets/css/philosophy/styles.css" />
+        <option value="$PROJECT_DIR$/other_projects/templates/other_projects/philosophy.html" />
       </list>
     </option>
   </component>
@@ -188,7 +167,9 @@
     <option name="width" value="1040" />
     <option name="height" value="785" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -209,34 +190,74 @@
             <path>
               <item name="treebranches" type="b2602c69:ProjectViewProjectNode" />
               <item name="treebranches" type="462c0819:PsiDirectoryNode" />
-              <item name="myfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="treebranches" type="b2602c69:ProjectViewProjectNode" />
+              <item name="treebranches" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="treebranches" type="b2602c69:ProjectViewProjectNode" />
+              <item name="treebranches" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="philosophy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="treebranches" type="b2602c69:ProjectViewProjectNode" />
+              <item name="treebranches" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="treebranches" type="b2602c69:ProjectViewProjectNode" />
+              <item name="treebranches" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="philosophy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="treebranches" type="b2602c69:ProjectViewProjectNode" />
+              <item name="treebranches" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="treebranches" type="b2602c69:ProjectViewProjectNode" />
+              <item name="treebranches" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="philosophy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="treebranches" type="b2602c69:ProjectViewProjectNode" />
               <item name="treebranches" type="462c0819:PsiDirectoryNode" />
               <item name="myfiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="treebranches" type="b2602c69:ProjectViewProjectNode" />
+              <item name="treebranches" type="462c0819:PsiDirectoryNode" />
+              <item name="other_projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="treebranches" type="b2602c69:ProjectViewProjectNode" />
+              <item name="treebranches" type="462c0819:PsiDirectoryNode" />
+              <item name="other_projects" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="treebranches" type="b2602c69:ProjectViewProjectNode" />
               <item name="treebranches" type="462c0819:PsiDirectoryNode" />
-              <item name="myfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="other_projects" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="myfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="other_projects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="treebranches" type="b2602c69:ProjectViewProjectNode" />
               <item name="treebranches" type="462c0819:PsiDirectoryNode" />
-              <item name="myfiles" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="myfiles" type="462c0819:PsiDirectoryNode" />
-              <item name="forms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="treebranches" type="b2602c69:ProjectViewProjectNode" />
-              <item name="treebranches" type="462c0819:PsiDirectoryNode" />
-              <item name="myfiles" type="462c0819:PsiDirectoryNode" />
-              <item name="templatetags" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="treebranches" type="b2602c69:ProjectViewProjectNode" />
@@ -256,19 +277,19 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Marcus\Desktop\Projects\treebranches\accounts" />
-      <recent name="C:\Users\Marcus\Desktop\Projects\treebranches\myfiles" />
-      <recent name="C:\Users\Marcus\Desktop\Projects\treebranches\assets" />
-      <recent name="C:\Users\Marcus\Desktop\Projects\treebranches\myfiles\templates\myfiles\forms" />
-      <recent name="C:\Users\Marcus\Desktop\Projects\treebranches\assets\js\my_files\folder_commands" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Marcus\Desktop\Projects\treebranches\posts\migrations" />
       <recent name="C:\Users\Marcus\Desktop\Projects\treebranches\myfiles\migrations" />
       <recent name="C:\Users\Marcus\Desktop\Projects\treebranches\communities\migrations" />
       <recent name="C:\Users\Marcus\Desktop\Projects\treebranches\assets\js\myfiles" />
       <recent name="C:\Users\Marcus\Desktop\Projects\treebranches\myfiles\templates\myfiles" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Marcus\Desktop\Projects\treebranches\other_projects\templates\other_projects" />
+      <recent name="C:\Users\Marcus\Desktop\Projects\treebranches\other_projects" />
+      <recent name="C:\Users\Marcus\Desktop\Projects\treebranches\accounts" />
+      <recent name="C:\Users\Marcus\Desktop\Projects\treebranches\myfiles" />
+      <recent name="C:\Users\Marcus\Desktop\Projects\treebranches\assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -317,7 +338,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18098958" />
@@ -389,64 +410,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/js/my_files/crud_functions.js" />
-    <entry file="file://$PROJECT_DIR$/assets/js/my_files/definitions.js" />
-    <entry file="file://$PROJECT_DIR$/templates/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/tools/jQ-classList.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/tools/jQueryFlagObject.js" />
-    <entry file="file://$PROJECT_DIR$/myfiles/templates/myfiles/forms/copy_paste_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="52" selection-start-column="52" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myfiles/templates/myfiles/forms/delete_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="56" selection-start-column="56" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myfiles/templates/myfiles/forms/put_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myfiles/templates/myfiles/forms/rename_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="51" selection-start-column="51" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/posts/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-88" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communities/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-598" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/tools/jQ-toggleAttr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/tools/logErrorOrDefault.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -478,13 +441,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myfiles/templates/myfiles/file.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -615,13 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/treebranches/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="132" column="33" selection-start-line="132" selection-start-column="33" selection-end-line="132" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myfiles/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -646,20 +595,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myfiles/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myfiles/templates/myfiles/session.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myfiles/templates/myfiles/project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -672,7 +618,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myfiles/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
+        <state relative-caret-position="643">
           <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
@@ -680,20 +626,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myfiles/templates/myfiles/project.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/accounts/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
-          <caret line="46" column="25" lean-forward="true" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -701,6 +637,115 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="30" column="97" selection-start-line="30" selection-start-column="97" selection-end-line="30" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myfiles/templates/myfiles/file.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/philosophy_page/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/philosophy_page/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="13" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myfiles/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/views/generic/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="148" column="8" selection-start-line="148" selection-start-column="8" selection-end-line="148" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treebranches/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myfiles/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treebranches/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other_projects/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other_projects/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/philosophy/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other_projects/templates/other_projects/philosophy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="163" column="334" selection-start-line="163" selection-start-column="334" selection-end-line="163" selection-end-column="334" />
         </state>
       </provider>
     </entry>
