@@ -1,0 +1,128 @@
+/* =================================
+  Element Styles
+==================================== */
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  margin: auto;
+  height: 200px;
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */
+}
+
+/* =================================
+  Class Styles
+==================================== */
+
+.container {
+  margin: auto;
+  max-width: auto;
+  text-align: center;
+}
+
+.wrapper {
+  display: inline-block;
+  position: relative;
+  margin: auto;
+  max-width: auto;
+}
+
+.holder {
+  position: relative;
+  max-width: 250px;
+  height: 510px;
+  margin: auto;
+}
+
+.mover {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  max-width: auto;
+  margin-left: 4px
+}
+
+.user-area {
+  margin: auto;
+}
+
+/* =================================
+  ID Styles
+==================================== */
+
+#calcwindow {
+  display: inline block;
+  height: auto;
+  min-height: 76px;
+  width: 10em;
+  margin: auto;
+  padding: 0;
+  background-color: #4682B4;
+  color: white;
+  border: 2px solid silver;
+}
+
+#calcwindow li {
+  text-align: left;
+}
+
+/* =================================
+  Buttons-Calc
+==================================== */
+
+button {
+  color: white;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: .5px;
+}
+
+button:active {
+  opacity: 0.7;
+  color: lightgrey;
+}
+
+.numbutton {
+  background-color: #4682B4; /* Steel blue */
+}
+
+.symbutton {
+  background-color: #3C6A91; /*darker than steelblue*/
+}
+
+#Delete {
+  width: 81px;
+}
+
+#Enter,
+#plus {
+ position: absolute;
+ vertical-align:top;
+ margin-top:23px;
+ width:80.5px;height:40px;
+ transform:rotate(7deg);
+ -ms-transform:rotate(90deg); /* IE 9 */
+ -moz-transform:rotate(90deg); /* Firefox */
+ -webkit-transform:rotate(90deg); /* Safari and Chrome */
+ -o-transform:rotate(90deg); /* Opera */
+}
+
+#Enter {
+  bottom: 2.27em;
+  right: -1.25em;
+}
+
+#plus {
+  bottom: 7.43em;
+  right: -1.25em;
+}

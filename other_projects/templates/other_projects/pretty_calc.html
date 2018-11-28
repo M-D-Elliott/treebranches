@@ -1,0 +1,39 @@
+{% load static from staticfiles %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <form>
+  </form>
+  <link href={% static 'css/other_projects/calculator_pretty/style.css' %} rel="stylesheet">
+</head>
+<body>
+  <div class="holder">
+    <div class="container">
+      <h1>JavaScript Calculator!</h1>
+      <p>Project by Marcus Elliott</p>
+      <form>
+      </form>
+    </div>
+
+    <div class="container">
+      <h4 id="mode">Press C-Key to start calculator!<br  />
+      </h4>
+      <ul id="calcwindow">
+        <li class="window">&nbsp;</li>
+        <li class="window">&nbsp;</li>
+        <li class="window">&nbsp;</li>
+        <li class="window"> </li>
+      </ul>
+    </div>
+    <div class="mover">
+      <div class="wrapper">
+        <ul id="userarea">
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="{% static 'js/other_projects/calculator_pretty/app_min.js' %}"></script>
+</body>
+</html>
