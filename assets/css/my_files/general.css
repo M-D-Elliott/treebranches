@@ -1,10 +1,6 @@
 body {
-    overflow-y:hidden;
-    overflow-x:hidden;
-}
-
-#navbar {
-    z-index: 10;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .my-projects-wrapper {

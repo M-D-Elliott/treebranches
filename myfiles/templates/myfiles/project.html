@@ -5,7 +5,6 @@
 
 {% block project_contents %}
 <div class="col-md-4 {{ serial }}" id="system-folder">
-
     {% get_project_root as folder %}
     {% if folder %}
     {% include "myfiles/folder.html" %}
@@ -15,11 +14,12 @@
     {% get_user_trash_bin as folder %}
     {% include "myfiles/folder.html" %}
     <br>
+    <br>
+    <br>
     {% get_new_folder as folder %}
     {% include "myfiles/folder.html" %}
     {% get_new_file as file %}
     {% include "myfiles/file.html" %}
-
 </div>
-{% include "myfiles/session.html" %}
+<!--{% include "myfiles/session.html" %}-->
 {% endblock %}

@@ -68,7 +68,7 @@ def sub_files_of(folder):
 @register.simple_tag()
 def hide_all(folder_or_file):
     if folder_or_file.par_fldr is None and folder_or_file.user is not None:
-        return 'block'
+        return 'inline-flex'
     else:
         return 'none'
 

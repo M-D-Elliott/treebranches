@@ -7,10 +7,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
   // parseDirObjects($('[data-ext=trash]')).formation('expand');
 
   // Start MouseClick event listener.
-  page.on('mousedown dblclick', function(e) {
+  page.on('dblclick mousedown', function(e) {
     // turn the target into a jQ object.
     const target = $(e.target);
-    // remove any previously created context menus in this global scope.
+    // remove any previously created context menus.
     context_menu.remove();
     // finalize any previously created forms.
     finalizeFormFields();
@@ -33,6 +33,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
       // the select function highlights the object in green for the user.
       dir_object.select();
 
+      console.log('event')
+
       // separate the click events by which(l/r clicks), type(single/double), and target class.
       if (e.which === 1) {
         if (e.type === 'dblclick') {
@@ -54,15 +56,16 @@ document.addEventListener("DOMContentLoaded", function(event) {
             dir_object.runCommand(command);
           };
         };
-      } else if (e.which === 3 && e.type === 'mousedown') {
-        if (!is_menu_icon && !target.hasClass('arrow-icon')) {
-          dir_object.openContextMenu(e);
-        };
+      } else if (e.which === 3) {
+        if (e.type === 'mousedown') {
+          if (!is_menu_icon && !target.hasClass('arrow-icon')) {
+            dir_object.openContextMenu(e);
+          };
+        }
       }; // end click-control switch.
     } else {
       deselectAll();
     };
-    return;
   });  // end myProjects Click Listener
 
   // listen for keydown events as hotkeys
@@ -125,11 +128,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
         case 37: case 38: case 39: case 40: // arrow keys
           root.select(); break;
         case 89:// 'y' key
-          if (e.ctrlKey) { redo(); };
+          if (e.ctrlKey) { redo(); }; break;
         case 90: // 'z' key
           if (e.ctrlKey) {
             if (e.shiftKey) { redo(); } else { undo() };
           }; break;
+        default: break;
         }
       }; // end global hotkey switch.
     } else {
@@ -139,7 +143,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
         finalizeFormFields();
       };
     };
-    return;
   }); // end myProjects hotkey Listener
 
 }); // end DOM Content Loaded

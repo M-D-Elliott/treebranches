@@ -11,11 +11,11 @@ DirObject.prototype.attachTo = function(new_base, sort=true) {
      .attr('data-path', path)
   if (new_base_obj.attr('data-form') === 'collapsed') {
     // hide the Dir Object then select the new base folder.
-    obj.css('display', 'none');
+    obj.css('display', hidden);
     new_base.select();
   } else {
     // show then select the Dir Object.
-    obj.css('display', 'block');
+    obj.css('display', visible);
     this.select();
   };
   if (sort) { new_base.sort(); };

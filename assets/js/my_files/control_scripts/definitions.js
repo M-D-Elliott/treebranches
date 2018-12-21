@@ -25,6 +25,10 @@ const selector_prefix = "<div data-object-id='";
 const selector_suffix = "' class='selector pseudo-icon " + app_serial + "'></div>";
 let system_folder = $();
 
+// formation method:
+const visible = 'inline-flex';
+const hidden = 'none';
+
 // openContextMenu method:
 let context_menu = $();
 let context_menu_refs = [];

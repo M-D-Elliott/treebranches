@@ -1,0 +1,227 @@
+{% load static from staticfiles %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+          <meta charset="utf-8">
+          <title>Meekus</title>
+
+         <!-- Required meta tags -->
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+         <!-- Latest compiled and minified CSS -->
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+         <!-- jQuery library -->
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+         <!-- Popper JS -->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+         <!-- Latest compiled JavaScript -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+         <!--CSS-->
+         <link rel="stylesheet" href="{% static 'css/other_projects/resume/styles.css' %}">
+         <link rel="stylesheet" href="{% static 'css/other_projects/philosophy/double_carousel.css' %}">
+    </head>
+    <body class ="w-100 h-100">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="#intro">Intro <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#languages">Languages/Bio </a>
+                        <a class="nav-item nav-link" href="#projects">Code Projects </a>
+                        <a class="nav-item nav-link" href="https://github.com/M-D-Elliott" target="blank">My Github </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <div class="jumbotron jumbotron-fluid text-white" style="background-color: #088204;">
+                <div class="container text-sm-left pt-5">
+                     <h1 class="display-4">Why hire Marcus Elliott?</h1>
+                </div>
+            </div>
+        </header>
+        <a id="intro" class="anchor"></a>
+        <div class="container">
+            <div class="row">
+                <!-- Center column for 3 col layout, top for mobile layout -->
+                <div class="col-lg order-lg-2 py-2">
+                    <h3>Lifelong Computer Experience</h3>
+                    <p>My earliest memories do not include much programming experience beyond loading "Commander Keen" from the Command prompt or 'save-scumming' on "Castle of the Winds". But as I aged my technical capabilities became inherent.</p>
+                    <p>I got my first taste of code as an eighth-grader when I published my own web-comic on freewebs.com. Over the course of its three-year run I began using light HTML and Javascript.</p>
+                </div>
+                <div class="col-lg order-lg-1 py-2">
+                    <h3>Love of Puzzle-solving</h3>
+                    <p>As a young teen I became interested in emulation in order to play foreign games that never came to the states. My interest in logic first developed when I played and completed "Mario No Super Picross" in 2001.</p>
+                    <a href="https://en.wikipedia.org/wiki/Mario%27s_Super_Picross" target="blank">
+                    <img src="{% static 'img/other_projects/resume/picross.jpg' %}" alt="Mario's Picross" class="pt-3 pb-3 resize-50 center">
+                    </a>
+                    <p>Now I find myself enjoying the puzzle-solving aspect of Web Development by far the most, though I do have a natural, but underdeveloped talent in design.</p>
+
+                </div>
+                <div class="col-lg order-lg-3 py-2">
+                    <h3>Redstone Inspiration!</h3>
+                    <p class="py-2">In my final year of college as a misguided Chemistry student I discovered Minecraft and soon fell in love with its "Redstone" logic system. I constructed numerous devices, most notably my programmable "Garage code door".</p>
+                    <p class="py-2">For years since I repeated the same sentiment, "I should have gone to school for programming. What was I thinking? Too late!" In February 2018 I realized I was wrong and started an account on <a href="https://teamtreehouse.com/marcuselliott" target="blank">Treehouse.com.</a></p>
+                </div>
+            </div>
+        </div>
+        <a id="languages" class="anchor"></a>
+        <div class="container">
+            <div class="row">
+                <div class="col-md order-md-2 boxed-parent" style="background-color:#f0c6f5;">
+                    <h3 class="boxed-title" style="background-color:purple;">Bio</h3>
+                    <div class="boxed-content">
+                        <p><strong>Degree:</strong> Bachelor of Science: Chemistry (Achieved 2013)</p>
+                        <p><strong>GPA:</strong> 3.1</p>
+                        <p><strong>Current Age:</strong> 29</p>
+                        <p><strong>Current Residence:</strong> Superior, WI</p>
+                        <strong>Other Areas of interest:</strong>
+                        <ul class="p-0">
+                            <li>Video Games / Game Design (20+ yrs)</li>
+                            <li>Creative Writing (17 yrs)</li>
+                            <li>Philosophy (16 yrs)</li>
+                            <li>Poetry (14 yrs)</li>
+                            <li>Science (12 yrs)</li>
+                            <li>Philosophy of Science / Futurism (10 yrs)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md order-md-1 boxed-parent" style="background-color:#d5d5f5;">
+                    <h3 class="boxed-title" style="background-color:blue;">Languages</h3>
+                    <div class="boxed-content container">
+                        <strong class="">Strong Knowledge:</strong>
+                        <ul class="boxed-items p-0">
+                            <li><div class="language py">Python</div>, Django</li>
+                            <li><div class="language js">Javascript</div>, jQuery</li>
+                            <li><div class="language css">CSS</div></li>
+                            <li><div class="language html">HTML</div></li>
+                        </ul>
+                        <br>
+                        <div class="row">
+                            <div class="col-md order-md-1 p-0 ml-3 mr-3">
+                                <strong>Moderate Knowledge:</strong>
+                                <ul class="p-0">
+                                    <li><div class="language sql">SQLite</li>
+                                    <li>Bootstrap</li>
+                                    <li><div class="language ruby">Ruby</li>
+                                </ul>
+                            </div>
+                            <br>
+                            <div class="col-md order-md-2 p-0 ml-3 mr-3">
+                                <strong>Basic Knowledge:</strong>
+                                <ul class="p-0">
+                                    <li><div class="language java">Java</div></li>
+                                    <li><div class="language csharp">C#</div></li>
+                                    <li><div class="language php">PHP</div></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- The double carousel. -->
+        <a id="projects" class="anchor"></a>
+        <div class="center container row">
+            <div class="carousel-holder col-lg-6 order-lg-1 my-3">
+                <div id="carousel1" class="carousel slide" data-ride="carousel" data-interval="false">
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#carousel1" data-slide-to="0" class="active black"></li>
+                        <li data-target="#carousel1" data-slide-to="1" class="black"></li>
+                        <li data-target="#carousel1" data-slide-to="2" class="black"></li>
+                        <li data-target="#carousel1" data-slide-to="3" class="black"></li>
+                    </ul>
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="{% static 'img/other_projects/resume/TreeBranches.jpg' %}" alt="Castle RPG">
+                            <div class="carousel-caption text-light">
+                                <h3 class="bg-dark">TreeBranches:</h3>
+                                <p class="bg-dark">A Web-based Document Tree</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{% static 'img/other_projects/resume/Castle.jpg' %}" alt="Castle RPG">
+                            <div class="carousel-caption text-light">
+                                <h3 class="bg-dark">Castle of the Python:</h3>
+                                <p class="bg-dark">A demo RPG made in Pygame!</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{% static 'img/other_projects/resume/TimeTravelers.jpg' %}" alt="Kardashevian gods">
+                            <div class="carousel-caption text-light">
+                                <h3 class="bg-dark">Philosophy:</h3>
+                                <p class="bg-dark">All my thoughts on god.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{% static 'img/other_projects/resume/wrench.png' %}" alt="Wrench">
+                            <div class="carousel-caption text-light">
+                                <h3 class="bg-dark">Other items of interest</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#carousel1" data-slide="prev">
+                      <span class="carousel-control-prev-icon black"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel1" data-slide="next">
+                      <span class="carousel-control-next-icon black"></span>
+                    </a>
+                    </div>
+                    </div>
+                    <div class="carousel-holder col-lg-6 order-lg-2 my-3">
+                    <div id="carousel2" class="carousel slide" data-ride="carousel" data-interval="false">
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active text-left p4">
+                            <p><strong>Link to URL:</strong> <a href="https://pythonmeek.pythonanywhere.com/" target="blank">TreeBranches @ Python Anywhere</a></p>
+                            <p class="inline-block"><strong>Languages used:</strong></p> <div class="language py">Python</div>, <div class="language js">Javascript</div>, <div class="language css">CSS</div>, <div class="language html">HTML</div>
+                            <p><strong>Development cycle:</strong> 15 weeks</p>
+                            <p><strong>Description:</strong> This project combines Django and jQuery to produce an editable document tree! Essentially this is a web-based reverse-engineering of basic Windows or Mac folder functions. It currently supports all CRUD operations and various transformations thereof. Works with placeholder "files" which could be adapted to be real files. Also contains a placeholder social media app.</p>
+                        </div>
+                        <div class="carousel-item text-left p4">
+                            <p><strong>Link to URL:</strong> <a href="https://github.com/M-D-Elliott/CastleOfThePython/tree/master/dist" target="blank">Installer @ GitHub</a></p>
+                            <p class="inline-block"><strong>Languages used:</strong></p> <div class="language py">Python</div>
+                            <p><strong>Development cycle:</strong> 12 weeks</p>
+                            <p><strong>Description:</strong> The framework for a basic RPG in a top-down 2D style, inspired by "Castle of the Winds".</p>
+                            <strong>Features: </strong>
+                            <ul class="pl-4">
+                                <li>Generates random dungeon floor for player to explore.</li>
+                                <li>Player can move, attack, and open doors in 8 directions.</li>
+                                <li>Monsters move in to attack when they see the player.</li>
+                                <li>Press Enter to show/hide in-game tutorial.</li>
+                            </ul>
+                        </div>
+                        <div class="carousel-item text-left p4">
+                            <p><strong>Link to URL:</strong> <a href="{% url 'other_projects:static' page='philosophy.html' %}" target="blank">Do you believe in time travel?</a></p>
+                            <p class="inline-block"><strong>Languages used:</strong></p> <div class="language js">Javascript</div>, <div class="language css">CSS</div>, <div class="language html">HTML</div>, Bootstrap
+                            <p><strong>Development cycle:</strong> 2 weeks</p>
+                            <p><strong>Description:</strong> An interactive compilation of my proofs regarding the logical conclusion of time travel. Also includes a short introduction to Futurism and the Kardashev scale.</p>
+                        </div>
+                        <div class="carousel-item text-left p4">
+                            <strong>Links: </strong>
+                            <ul class="pl-4">
+                                <li><a href="{% static 'files/Resume-M.D.Elliott.doc' %}" download>Paper Resume</a></li>
+                                <li><a href="https://github.com/M-D-Elliott" target="blank">Github</a></li>
+                                <li><a href="https://teamtreehouse.com/marcuselliott" target="blank">Treehouse Account</a></li>
+                                <li><a href="{% url 'other_projects:static' page='pretty_calc.html' %}" target="blank">Pretty Calculator</a></li>
+                                <li><a href="{% url 'other_projects:static' page='more_calc.html' %}" target="blank">More functional Calculator</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="{% static 'js/tools/getImageBrightness.js' %}"></script>
+        <script src="{% static 'js/other_projects/resume/app.js' %}"></script>
+    </body>
+</html>

@@ -20,7 +20,10 @@
     box-align: stretch;
     align-items: stretch;
 
+    flex-basis: auto;
+
     height: 1.5em;
+    width: auto;
     margin-top: 2px;
     margin-right: 2px;
     margin-bottom: 2px;
@@ -63,8 +66,5 @@ div[data-selected="true"] {
 
 .selector {
     background: #09A303;
-    min-height: 26px;
-    z-index: 2;
-    min-width: 100%;
     position: absolute;
 }

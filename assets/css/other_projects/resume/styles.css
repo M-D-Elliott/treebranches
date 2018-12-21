@@ -1,0 +1,111 @@
+.resize-50 {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -15vh;
+    visibility: hidden;
+}
+
+.center {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    display: block;
+}
+
+.boxed-title {
+    color: white;
+}
+
+.boxed-title,
+.boxed-content {
+    padding: 3% 5%;
+    margin: auto;
+}
+
+.boxed-content {
+    border-top: 2px solid black;
+}
+
+.boxed-content p,
+.boxed-content ul {
+    list-style-position: inside;
+}
+
+.boxed-parent {
+    padding: 0 0 0 0;
+    margin: 2% 5%;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+.language.py {
+    border-color: blue;
+    background-color: blue;
+}
+
+.language.js {
+    border-color: fuchsia;
+    background-color: fuchsia;
+}
+
+.language.css {
+    border-color: lawngreen;
+    background-color: lawngreen;
+    color: black;
+}
+
+.language.html {
+    border-color: lightblue;
+    background-color: lightblue;
+    color: black;
+}
+
+.language.sql {
+    border-color: lemonchiffon;
+    background-color: lemonchiffon;
+    color: black;
+}
+
+.language.ruby {
+    border-color: indianred;
+    background-color: indianred;
+}
+
+.language.java {
+    border-color: darksalmon;
+    background-color: darksalmon;
+}
+
+.language.csharp {
+    border-color: darkslategray;
+    background-color: darkslategray;
+}
+
+.language.php {
+    border-color: darkmagenta;
+    background-color: darkmagenta;
+}
+
+.language {
+    margin: 2px 0;;
+    border-color: green;
+    background-color: green;
+    border-radius: 25px;
+    border-size: 5px;
+    border-style: solid;
+    color: white;
+    display: inline-block
+}
+
+.inline-block {
+    display: inline-block;
+}

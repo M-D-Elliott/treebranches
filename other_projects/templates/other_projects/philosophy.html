@@ -1,186 +1,184 @@
 {% load static from staticfiles %}
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-  <meta charset="utf-8">
-  <title>The Ethics of Futurism</title>
+    <head>
+          <meta charset="utf-8">
+          <title>Futurism and Ethics</title>
 
- <!-- Required meta tags -->
- <meta charset="utf-8">
- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+         <!-- Required meta tags -->
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
- <!-- Latest compiled and minified CSS -->
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+         <!-- Latest compiled and minified CSS -->
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 
- <!-- jQuery library -->
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+         <!-- jQuery library -->
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
- <!-- Popper JS -->
- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+         <!-- Popper JS -->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
 
- <!-- Latest compiled JavaScript -->
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+         <!-- Latest compiled JavaScript -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
- <!--CSS-->
- <link rel="stylesheet" href="{% static 'css/other_projects/philosophy/styles.css' %}">
+         <!--CSS-->
+         <link rel="stylesheet" href="{% static 'css/other_projects/philosophy/styles.css' %}">
+         <link rel="stylesheet" href="{% static 'css/other_projects/philosophy/double_carousel.css' %}">
+    </head>
+    <body class ="w-100 h-100">
+        <a id="home" class="anchor"></a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand order-1 mr-0" href="http://getbootstrap.com/" target="_blank">Powered By Bootstrap!</a>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#about">About</a>
+                        <a class="nav-item nav-link" href="#civ-types">Kardashevian Types</a>
+                        <a class="nav-item nav-link" href="#proofs">Proofs and Postulates</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <div class="jumbotron jumbotron-fluid bg-secondary text-white">
+                <div class="container text-sm-center pt-5">
+                    <h1 class="display-4">What is the meaning of life?</h1>
+                </div>
+            </div>
+        </header>
+        <a id="about" class="anchor"></a>
+        <div class="container">
+            <div class="row">
+                  <!-- Center column for 3 col layout, top for mobile layout -->
+                  <div class="col-lg order-lg-2 py-2">
+                      <h3>Futurism</h3>
+                      <img src="{% static 'img/other_projects/philosophy/monolith.jpg' %}" alt="2001's Monolith" class="pt-3 pb-3">
+                      <p> Futurism is the philosophy of perceiving the effect of technological advancements on civil or social hierarchies.
+                  </div>
+                  <div class="col-lg order-lg-1 py-2">
+                      <h3>Macroscopic Ethics</h3>
+                      <p> Success of an organism relative to other organisms can be most easily measured by the scope of the environment each occupies. In other words, the larger the area of influence of an organism, intelligent or otherwise, the more relative survival success its species may claim.</p>
+                      <p> When considering a civilization that succeeds even on the global scale, e.g. humans, the impact of that civilization on all "lower" forms of life is considerable. So, just as humans impact countless microscopic organisms on Earth, civilizations of Type I and higher would undoubtedly impact countless potential life below them. From an ethical perspective, this impact bears import.</p>
 
-  </head>
-  <body class ="w-100 h-100">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand order-1 mr-0" href="http://getbootstrap.com/" target="_blank">Powered By Bootstrap!</a>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#about">About</a>
-          <a class="nav-item nav-link" href="#search">Search</a>
-          <a class="nav-item nav-link" href="#recommended">Recommended</a>
+                  </div>
+                  <div class="col-lg order-lg-3 py-2">
+                      <h3>The Kardashev Scale</h3>
+                      <p class="py-2"> The Kardashev scale is a hypothetical model by which a civilization's degree of energy access can be used to reverse-engineer the technological capabilities and social necessities of that civilization. Hypothetical civilizations are divided into types.
+                      <p class="py-2"> Kardashev Civilization Types I through III can evolve through simple laws of physics over a long period of time. The Type III Civilization may evolve over tens of thousands of years or millions of years depending on whether or not time travel is possible. The Kardashev Civilizations of Type IV and V can only evolve if time travel is possible.
+                  </div>
+            </div>
         </div>
-      </div>
-    </div>
-    </nav>
-    <header>
-      <div class="jumbotron jumbotron-fluid bg-secondary text-white">
-        <div class="container text-sm-center pt-5">
-          <h1 class="display-4">What is the meaning of life?</h1>
+        <!-- The double carousel. -->
+        <a id="civ-types" class="anchor"></a>
+        <div class="center container row">
+            <div class="carousel-holder col-lg-6 order-lg-1 my-3">
+                <div id="carousel1" class="carousel slide" data-ride="carousel" data-interval="false">
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel1" data-slide-to="1"></li>
+                        <li data-target="#carousel1" data-slide-to="2"></li>
+                        <li data-target="#carousel1" data-slide-to="3"></li>
+                        <li data-target="#carousel1" data-slide-to="4"></li>
+                        <li data-target="#carousel1" data-slide-to="5"></li>
+                    </ul>
 
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="{% static 'img/other_projects/philosophy/TypeIDepict.jpg' %}" alt="Mega City">
+                            <div class="carousel-caption">
+                                <h3>Type I:</h3>
+                                <p>A Stellar Civilization</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{% static 'img/other_projects/philosophy/TypeIIDepict.jpg' %}"alt="Dyson Sphere">
+                            <div class="carousel-caption">
+                                <h3>Type II:</h3>
+                                <p>An Interstellar Civilization</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{% static 'img/other_projects/philosophy/TypeIIIDepict.jpg' %}" alt="Galaxy">
+                            <div class="carousel-caption">
+                                <h3>Type III:</h3>
+                                <p>A Galactic Civilization</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{% static 'img/other_projects/philosophy/backgroundradiation.jpg' %}" alt="The Visible Universe">
+                            <div class="carousel-caption">
+                                <h3>Type IV:</h3>
+                                <p>A Universal Civilization</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{% static 'img/other_projects/philosophy/spacebaby.jpg' %}" alt="Space Baby">
+                            <div class="carousel-caption">
+                                <h3>Type V:</h3>
+                                <p>A Temporal Civilization</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{% static 'img/other_projects/philosophy/Brahman.jpg' %}" alt="Brahman">
+                            <div class="carousel-caption">
+                                <h3>Type VI and Beyond:</h3>
+                                <p>Brahman</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#carousel1" data-slide="prev">
+                      <span class="carousel-control-prev-icon black"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel1" data-slide="next">
+                      <span class="carousel-control-next-icon black"></span>
+                    </a>
+                    </div>
+                    </div>
+            <div class="carousel-holder col-lg-6 order-lg-2 my-3">
+                <div id="carousel2" class="carousel slide" data-ride="carousel" data-interval="false">
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active text-left p4">
+                            <p><strong>Methods:</strong> A Type I Civilization starts its life upon gaining access to energy equivalent to all energy that arrives on its home planet from its home star, or e^17 Watts. This can also be achieved by anachronistic technology such as free vaccuum energy.</p>
+                            <p><strong>Ethics:</strong> Even at its inception such a civilization is already capable of determining the immediate and eventual destinies of entire planets; in essence it could choose the Biological result of its home planet and other planets in its stellar system if they too have life.</p>
+                        </div>
+                        <div class="carousel-item text-left p4">
+                            <p><strong>Methods:</strong> A Type II Civilization evolves from a Type-I Civilization upon generating e^26 Watts. A Dyson Sphere is a giant encasement around an active star, effectively turning it into a battery. It is highly unlikely a more available energy source could be reached before the Dyson Sphere.</p>
+                            <p><strong>Ethics:</strong> This society would have access to a Bio-technical logic mechanism known as "The Monolith" Coined in the novel "2001: A Space Odyssey". This device would spread like a virus across countless star systems, mapping the galaxy and establishing information nodes for the Type II Civilization.</p>
+                        </div>
+                        <div class="carousel-item text-left p4">
+                            <p><strong>Methods:</strong> A Type III Civilization holds numerous Dyson Spheres across a single galaxy, having access to energy in the realm of e^37 Watts.</p>
+                            <p><strong>Ethics:</strong> This degree of reach would determine the destiny of its host galaxy and is at extreme risk for the evolution of one or many breakaway civilizations, which could technologically counter the original civilization. This problem is addressed in the novel "Foundation".</p>
+                        </div>
+                        <div class="carousel-item text-left p4">
+                            <p><strong>Methods:</strong> A Type IV Civilization would necessarily require access to time travel technology in order to capture and gather energy from the visible universe. </p>
+                            <p><strong>Ethics:</strong> Whether it be through wormholes, time bubbles, or organic antimatter, this civilization would cause unforseeable damage to the upper dimensions by its very existence. It would be unlikely for a civilization of this type to employ ethics in their inter-galactic conquest.</p>
+                        </div>
+                        <div class="carousel-item text-left p4">
+                            <p><strong>Methods:</strong> A Type V Civilization would have free movement in all temporal dimensions and would require energy from multiple realities. Such a society would have a vastly smaller population than all previous as the amount of energy required to fold through the precept dimensions is exponentially greater than the temporal dimensions.</p>
+                            <p><strong>Ethics:</strong> Creatures of this civilization can be referred to as "Kardashevian gods", or demi-gods, whose existence is inherently unethical. As such they are the natural enemy to all lower life. Ironically they could evolve from any organism.</p>
+                        </div>
+                        <div class="carousel-item text-left p4">
+                            <p><strong>Methods:</strong> Civilizations of Type VI and beyond are inherently contradictory to known physics.  A "Kardashevian God" would exist outside the tenth dimension. Only the tenth dimension exists there, therefore, it would be the tenth dimension. It would comprise all things in all times across all sets of rules or "precept". Because of the impossibility of omnipotence, omnipresence, and omniscience such a being should be impossible.</p>
+                            <p><strong>Ethics:</strong> Unlike the Type V Civilization, a creature of this type cannot be measured ethically. This is because any action it takes is both for and against itself, a zero-sum game.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </header>
-
-  <div class="container">
-    <div id="about" class="row">
-    <!-- Center column for 3 col layout, top for mobile layout -->
-      <div class="col-lg order-lg-2 py-2">
-        <h3>Futurism</h3>
-        <img src="{% static 'img/other_projects/philosophy/monolith.jpg' %}" alt="2001's Monolith" class="pt-3 pb-3">
-        <p> Futurism is the philosophy of perceiving the impact of technological advancements on civil or social hierarchies.
-      </div>
-      <div class="col-lg order-lg-1 py-2">
-        <h3>Macroscopic Ethics</h3>
-          <p> Success of an organism relative to other organisms can be most easily measured by the scope of the environment each occupies. In other words, the larger the area of influence of an organism, intelligent or otherwise, the more relative survival success its species may claim.</p>
-          <p> When considering a civilization that succeeds even on the global scale, e.g. humans, the impact of that civilization on all "lower" forms of life is considerable. So, just as humans impact countless microscopic organisms on Earth, civilizations of Type I and higher would undoubtedly impact countless potential life below them. From an ethical perspective, this impact bears import.</p>
-
-      </div>
-      <div class="col-lg order-lg-3 py-2">
-        <h3>The Kardashev Scale</h3>
-        <p class="py-2"> The Kardashev scale is a hypothetical model by which a civilization's degree of energy access can be used to reverse-engineer the technological capabilities and social necessities of that civilization. Hypothetical civilizations are divided into types.
-        <p class="py-2"> Kardashev Civilization Types I through III can evolve through simple laws of physics over a long period of time. The Type III Civilization may evolve over tens of thousands of years or millions of years depending on whether or not time travel is possible. The Kardashev Civilizations of Type IV and V can only evolve if time travel is possible.
-      </div>
-    </div>
-    </div>
-
-    <!-- The double carousel. -->
-    <div class="center container row">
-      <div class="carousel-holder col-lg-6 order-lg-1 my-3">
-          <div id="carousel1" class="carousel slide" data-ride="carousel" data-interval="false">
-            <!-- Indicators -->
-            <ul class="carousel-indicators">
-              <li data-target="#carousel1" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel1" data-slide-to="1"></li>
-              <li data-target="#carousel1" data-slide-to="2"></li>
-              <li data-target="#carousel1" data-slide-to="3"></li>
-              <li data-target="#carousel1" data-slide-to="4"></li>
-              <li data-target="#carousel1" data-slide-to="5"></li>
-            </ul>
-
-            <!-- The slideshow -->
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="{% static 'img/other_projects/philosophy/TypeIDepict.jpg' %}" alt="Mega City">
-                <div class="carousel-caption">
-                    <h3>Type I:</h3>
-                    <p>A Stellar Civilization</p>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                <img src="{% static 'img/other_projects/philosophy/TypeIIDepict.jpg' %}"alt="Dyson Sphere">
-                <div class="carousel-caption">
-                    <h3>Type II:</h3>
-                    <p>An Interstellar Civilization</p>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                <img src="{% static 'img/other_projects/philosophy/TypeIIIDepict.jpg' %}" alt="Galaxy">
-                <div class="carousel-caption">
-                    <h3>Type III:</h3>
-                    <p>A Galactic Civilization</p>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                <img src="{% static 'img/other_projects/philosophy/backgroundradiation.jpg' %}" alt="The Visible Universe">
-                <div class="carousel-caption">
-                    <h3>Type IV:</h3>
-                    <p>A Universal Civilization</p>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                <img src="{% static 'img/other_projects/philosophy/spacebaby.jpg' %}" alt="Space Baby">
-                <div class="carousel-caption">
-                    <h3>Type V:</h3>
-                    <p>A Temporal Civilization</p>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                <img src="{% static 'img/other_projects/philosophy/Brahman.jpg' %}" alt="Brahman">
-                <div class="carousel-caption">
-                    <h3>Type VI and Beyond:</h3>
-                    <p>Brahman</p>
-                  </div>
-              </div>
-          </div>
-
-            <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#carousel1" data-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#carousel1" data-slide="next">
-              <span class="carousel-control-next-icon"></span>
-            </a>
-          </div>
-        </div>
-        <div class="carousel-holder col-lg-6 order-lg-2 my-3">
-            <div id="carousel2" class="carousel slide" data-ride="carousel" data-interval="false">
-
-              <!-- The slideshow -->
-              <div class="carousel-inner">
-                <div class="carousel-item active text-left p4">
-                  <p><strong>Methods:</strong> A Type I Civilization starts its life upon gaining access to energy equivalent to all energy that arrives on its home planet from its home star, or e^17 Watts. This can also be achieved by anachronistic technology such as free vaccuum energy.</p>
-                  <p><strong>Ethics:</strong> Even at its inception such a civilization is already capable of determining the immediate and eventual destinies of entire planets; in essence it could choose the Biological result of its home planet and other planets in its stellar system if they too have life.</p>
-                </div>
-                <div class="carousel-item text-left p4">
-                  <p><strong>Methods:</strong> A Type II Civilization evolves from a Type-I Civilization upon 90% or greater completion of a Dyson Sphere around its home star, yielding energy of e^26 Watts. It is ridiculously unlikely that such levels of energy would be achieved without a Dyson Sphere.</p>
-                  <p><strong>Ethics:</strong> This society would have access to a Bio-technical logic mechanism known as "The Monolith" Coined in the novel "2001: A Space Odyssey". This device would spread like a virus across countless star systems, mapping the galaxy and establishing information nodes for the Type II Civilization.</p>
-                </div>
-                <div class="carousel-item text-left p4">
-                  <p><strong>Methods:</strong> A Type III Civilization holds numerous Dyson Spheres across a single galaxy, having access to energy in the realm of e^37 Watts.</p>
-                  <p><strong>Ethics:</strong> This degree of reach would determine the destiny of its host galaxy and is at extreme risk for the evolution of one or many breakaway civilizations, which could technologically counter the original civilization. This problem is addressed in the novel "Foundation".</p>
-                </div>
-                <div class="carousel-item text-left p4">
-                  <p><strong>Methods:</strong> A Type IV Civilization would necessarily require access to time travel technology in order to capture and gather energy from the visible universe. </p>
-                  <p><strong>Ethics:</strong> Whether it be through wormholes, time bubbles, or organic antimatter, this civilization would cause unforseeable damage to the upper dimensions by its very existence. It would be unlikely for a civilization of this type to employ ethics in their inter-galactic conquest.</p>
-                </div>
-                <div class="carousel-item text-left p4">
-                  <p><strong>Methods:</strong> A Type V Civilization would require free movement in all temporal dimensions and would require energy from multiple realities. Such a society would have a vastly smaller population than all previous as the amount of energy required to fold through the precept dimensions is exponentially greater than the temporal dimensions.</p>
-                  <p><strong>Ethics:</strong> Creatures of this civilization can be referred to as "Kardashevian gods", or demi-gods, whose existence is inherently unethical. As such they are the natural enemy to all lower life. Ironically they could evolve from any organism.</p>
-                </div>
-                <div class="carousel-item text-left p4">
-                  <p><strong>Methods:</strong> Civilizations of Type VI and beyond are inherently contradictory to known physics.  A "Kardashevian God" would exist outside the tenth dimension. Only the tenth dimension exists there, therefore, it would be the tenth dimension. It would comprise all things in all times across all sets of rules or "precept". Because of the impossibility of omnipotence, omnipresence, and omniscience such a being should be impossible.</p>
-                  <p><strong>Ethics:</strong> Unlike the Type V Civilization, a creature of this type cannot be measured ethically. This is because any action it takes is both for and against itself, a zero-sum game.</p>
-                </div>
-              </div>
-
-        </div>
-      </div>
-
-    </div>
-    <!-- footer  -->
+        <a id="proofs" class="anchor"></a>
+        {% include "other_projects/proofs_postulates/proof_list.html" %}
+        <!-- footer  -->
         <div class="col-md text-md-right">
-          <small>&copy; 2018 Marcus Elliott &amp; BootStrap</small>
+            <small>&copy; 2018 Marcus Elliott &amp; BootStrap</small>
         </div>
-      </div>
-      <!-- /footer -->
-  <script src="{% static 'js/other_projects/philosophy/app.js' %}"></script>
-
-  </body>
+        <!-- /footer -->
+        <script src="{% static 'js/tools/getImageBrightness.js' %}"></script>
+        <script src="{% static 'js/tools/jQ-displayBlockFilter.js' %}"></script>
+        <script src="{% static 'js/other_projects/philosophy/app.js' %}"></script>
+    </body>
 </html>

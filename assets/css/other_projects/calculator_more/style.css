@@ -1,6 +1,7 @@
-/* * {
-  box-sizing: border-box;
-} */
+body, html {
+    height: 100%;
+}
+
 
 /*Windows*/
 
@@ -34,8 +35,8 @@
 }
 
 #windowBox {
-  max-width: 204px;
-  min-width: 204px;
+  min-width: 250px;
+  max-width: 250px;
   min-height: 75.6;
   /* max-height: 75.6; */
   border: 2px solid darkblue;
@@ -44,8 +45,8 @@
 }
 
 #calcTarget {
-min-height: 18.79px
-max-height: 18.79px;
+  min-height: 18.79px
+  max-height: 18.79px;
 }
 
 /*Buttons*/

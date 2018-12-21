@@ -22,9 +22,11 @@ Folder.prototype.formation = function(command) {
   // otherwise only target direct child sub-folders.
   if (obj.attr('data-form') === 'collapsed') {
     // all sub_files are given a css display of none.
-    obj.find(".file-container").css('display', 'none');
+    obj.find(".file-container").css('display', hidden);
     // all sub_folders are altered here by .css('display') and data-form.
-    obj.find(".folder-container").css('display', 'none').attr('data-form', 'collapsed');
+    obj.find(".folder-container")
+         .css('display', hidden)
+         .attr('data-form', 'collapsed');
     // all folder and arrow icons, owned this folder or its sub-folders, have their src attr replaced.
     obj
       .find(".folder-icon, .arrow-icon")
@@ -35,7 +37,7 @@ Folder.prototype.formation = function(command) {
       });
   } else {
     // all child folders and files are given a css display of block.
-    obj.children(".folder-container, .file-container").css('display', 'block');
+    obj.children(".folder-container, .file-container").css('display', visible);
     // folder and arrow icons owned by this folder have their src attr replaced.
     obj
       .children(container_icon_ref)

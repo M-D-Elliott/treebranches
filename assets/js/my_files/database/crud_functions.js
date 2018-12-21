@@ -116,7 +116,7 @@ DirObject.prototype.createTo = function(new_base_obj) {
 
 DirObject.prototype.trashOrDelete = function(target='all') {
   const obj = this.obj;
-  if (this.trashed || obj === trash) {
+  if (this.trashed || obj.is(trash)) {
     this.deleteDirObject(target=target)
   } else {
     // move the object to the trash.
