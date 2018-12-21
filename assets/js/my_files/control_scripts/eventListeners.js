@@ -33,8 +33,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
       // the select function highlights the object in green for the user.
       dir_object.select();
 
-      console.log('event')
-
       // separate the click events by which(l/r clicks), type(single/double), and target class.
       if (e.which === 1) {
         if (e.type === 'dblclick') {
@@ -74,6 +72,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
     const key = (x.keyCode || x.which);
     const obj = $(selected_ref);
     // console.log(key);
+    // remove any previously created context menus.
+    context_menu.remove();
     if ($(active_form_ref).length === 0) {
       // if the user is not typing characters, use hotkeys.
       e.preventDefault();
@@ -137,11 +137,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
         }
       }; // end global hotkey switch.
     } else {
-      // if a form is active the enter key finalizes it.
-      if (key === 13 || key === 3) {
-        e.preventDefault();
-        finalizeFormFields();
-      };
+      // if a form is active the any key finalizes it.
+      e.preventDefault();
+      finalizeFormFields();
     };
   }); // end myProjects hotkey Listener
 

@@ -22,13 +22,33 @@
 	<div class="container">
         <div class="row">
             {% if request.user.is_authenticated %}
-            <p>{{ user.username|possessive }} projects</p>
             <div id="my_projects_serial" data-serial="{{ serial }}" style="display:none;"></div>
             <div id="username" style="display:none;">{{ user.username }}</div>
-            {% with "myProjects://" as current_path %}
-            {% block project_contents %}{% endblock %}
-            {% endwith %}
+            <div class="col-md-6 order-md-1">
+                <p>{{ user.username|possessive }} projects</p>
+                {% with "myProjects://" as current_path %}
+                {% block project_contents %}{% endblock %}
+                {% endwith %}
+            </div>
+            <div class="col-md-6 order-md-2">
+                <strong>Controls:</strong>
+                <ul style="list-style-position: inside;">
+                    <li>Right-click folder or file for context menu</li>
+                    <li>N - New Folder</li>
+                    <li>F - New File</li>
+                    <li>Arrow Keys - Next/Prev Folder/file</li>
+                    <li>CTRL + X - Cut</li>
+                    <li>CTRL + C - Copy</li>
+                    <li>CTRL + Z - Undo</li>
+                    <li>CTRL + SHIFT + Z (OR) CTRL + Y - Redo</li>
+                    <li>Delete - Move to Trash / Delete from Trash / Empty Trash</li>
+                    <li>Enter - Expand / Collapse Folder</li>
+                    <li>S - Sort by LAST SORT</li>
+                    <li>R - Rename</li>
+                </ul>
+            </div>
             {% endif %}
+
         </div>
     </div>
     <div style="display: none;" id="hidden">
