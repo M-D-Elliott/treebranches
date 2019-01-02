@@ -9,7 +9,7 @@
   {% if request.get_host == '127.0.0.1:8000' %}
   <link href={% static 'css/other_projects/calculator_pretty/style.css' %} rel="stylesheet">
   {% else %}
-  <link href={% static 'css/other_projects/calculator_pretty/styles_min.css' %} rel="stylesheet">
+  <link href={% static 'css/other_projects/calculator_pretty/styles.min.css' %} rel="stylesheet">
   {% endif %}
 </head>
 <body>
@@ -41,7 +41,7 @@
   {% if request.get_host == '127.0.0.1:8000' %}
   <script type="text/javascript" src="{% static 'js/other_projects/calculator_pretty/app.js' %}"></script>
   {% else %}
-  <script type="text/javascript" src="{% static 'js/other_projects/calculator_pretty/app_min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/other_projects/calculator_pretty/app.min.js' %}"></script>
   {% endif %}
 
 </body>

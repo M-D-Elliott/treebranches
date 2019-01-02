@@ -5,7 +5,7 @@
   {% if request.get_host == '127.0.0.1:8000' %}
   <link rel="stylesheet" href="{% static 'css/other_projects/calculator_more/style.css' %}">
   {% else %}
-  <link rel="stylesheet" href="{% static 'css/other_projects/calculator_more/styles_min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/other_projects/calculator_more/styles.min.css' %}">
   {% endif %}
 
   <head>
@@ -21,7 +21,7 @@
       <script src="{% static 'js/other_projects/calculator_more/calculatorUI.js' %}"></script>
       <script src="{% static 'js/other_projects/calculator_more/app.js' %}"></script>
     {% else %}
-      <script src="{% static 'js/other_projects/calculator_more/app_min.js' %}"></script>
+      <script src="{% static 'js/other_projects/calculator_more/app.min.js' %}"></script>
     {% endif %}
   </body>
 </html>
