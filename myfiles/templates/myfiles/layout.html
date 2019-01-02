@@ -1,4 +1,4 @@
-{% extends "layout.html" %}
+{% extends "treebranches/layout.html" %}
 {% load static from staticfiles %}
 {% load myFiles_extras %}
 
@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="{% static 'css/my_files/containers.css' %}">
 	<link rel="stylesheet" href="{% static 'css/my_files/icons.css' %}">
 	<link rel="stylesheet" href="{% static 'css/my_files/context_menu.css' %}">
-
 {% endblock %}
 
 {% block body_content %}
@@ -31,21 +30,7 @@
                 {% endwith %}
             </div>
             <div class="col-md-6 order-md-2">
-                <strong>Controls:</strong>
-                <ul style="list-style-position: inside;">
-                    <li>Right-click folder or file for context menu</li>
-                    <li>N - New Folder</li>
-                    <li>F - New File</li>
-                    <li>Arrow Keys - Next/Prev Folder/file</li>
-                    <li>CTRL + X - Cut</li>
-                    <li>CTRL + C - Copy</li>
-                    <li>CTRL + Z - Undo</li>
-                    <li>CTRL + SHIFT + Z (OR) CTRL + Y - Redo</li>
-                    <li>Delete - Move to Trash / Delete from Trash / Empty Trash</li>
-                    <li>Enter - Expand / Collapse Folder</li>
-                    <li>S - Sort by LAST SORT</li>
-                    <li>R - Rename</li>
-                </ul>
+                {% include "myfiles/controls.html" %}
             </div>
             {% endif %}
 
@@ -71,6 +56,5 @@
 
 {% block plugins %}
 {{ block.super }}
-<!--<script src="{% static 'js/my_files/my_projects_min.js' %}"></script>-->
-{% include "myfiles/layout_JS.html" %}
+{% include "myfiles/all_JS.html" %}
 {% endblock %}

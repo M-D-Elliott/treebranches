@@ -9,6 +9,14 @@
   </head>
   <body>
     <div id="calc-target"></div>
-    <script src="{% static 'js/other_projects/calculator_more/app_min.js' %}"></script>
+    {% if request.get_host == '127.0.0.1:8000' %}
+      <script src="{% static 'js/other_projects/calculator_more/calculator.js' %}"></script>
+      <script src="{% static 'js/other_projects/calculator_more/buttons.js' %}"></script>
+      <script src="{% static 'js/other_projects/calculator_more/window.js' %}"></script>
+      <script src="{% static 'js/other_projects/calculator_more/calculatorUI.js' %}"></script>
+      <script src="{% static 'js/other_projects/calculator_more/app.js' %}"></script>
+    {% else %}
+      <script src="{% static 'js/other_projects/calculator_more/app_min.js' %}"></script>
+    {% endif %}
   </body>
 </html>

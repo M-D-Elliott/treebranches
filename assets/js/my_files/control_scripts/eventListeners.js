@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     const key = (x.keyCode || x.which);
     const obj = $(selected_ref);
     // console.log(key);
-    // remove any previously created context menus.
+    // remove any previously created context menus
     context_menu.remove();
     if ($(active_form_ref).length === 0) {
       // if the user is not typing characters, use hotkeys.
@@ -137,9 +137,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
         }
       }; // end global hotkey switch.
     } else {
-      // if a form is active the any key finalizes it.
-      e.preventDefault();
-      finalizeFormFields();
+      // if a form is active then allow regular typing.
+      // Enter or arrow keys will finalize the form.
+      switch(key) {
+      case 13: case 3: case 37: case 38: case 39: case 40: // Enter/Arrow keys
+        e.preventDefault();
+        finalizeFormFields();
+        break;
+      };
     };
   }); // end myProjects hotkey Listener
 

@@ -4,7 +4,7 @@
 {% block title_tag %}{{ current_user_dir }} | {{ block.super }}{% endblock %}
 
 {% block project_contents %}
-<div class="col-md-4 {{ serial }}" id="system-folder">
+<div class="{{ serial }}" id="system-folder">
     {% get_project_root as folder %}
     {% if folder %}
     {% include "myfiles/folder.html" %}

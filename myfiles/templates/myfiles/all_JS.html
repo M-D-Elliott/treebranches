@@ -1,4 +1,6 @@
 {% load static from staticfiles %}
+
+{% if request.get_host == '127.0.0.1:8000' %}
 <!--Misc tools -->
 <script src="{% static 'js/tools/logErrorOrDefault.js' %}"></script>
 <script src="{% static 'js/tools/flagString.js' %}"></script>
@@ -26,7 +28,7 @@
 <script src="{% static 'js/my_files/database/crud_functions.js' %}"></script>
 <script src="{% static 'js/my_files/system/undo.js' %}"></script>
 
-<!--Folder/File Commands-->\
+<!--Folder/File Commands-->
 <script src="{% static 'js/my_files/file_commands/open.js' %}"></script>
 <script src="{% static 'js/my_files/folder_commands/formation.js' %}"></script>
 <script src="{% static 'js/my_files/folder_commands/sort.js' %}"></script>
@@ -45,3 +47,6 @@
 <script src="{% static 'js/my_files/system/runCommand.js' %}"></script>
 <script src="{% static 'js/my_files/database/submit.js' %}"></script>
 <script src="{% static 'js/my_files/control_scripts/eventListeners.js' %}"></script>
+{% else %}
+<script src="{% static 'js/my_files/my_projects_min.js' %}"></script>
+{% endif %}

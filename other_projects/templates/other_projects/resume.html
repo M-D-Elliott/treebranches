@@ -182,13 +182,13 @@
 
                     <!-- The slideshow -->
                     <div class="carousel-inner">
-                        <div class="carousel-item active text-left p4">
+                        <div class="carousel-item active text-left">
                             <p><strong>Link to URL:</strong> <a href="https://pythonmeek.pythonanywhere.com/" target="blank">TreeBranches @ Python Anywhere</a></p>
                             <p class="inline-block"><strong>Languages used:</strong></p> <div class="language py">Python</div>, <div class="language js">Javascript</div>, <div class="language css">CSS</div>, <div class="language html">HTML</div>
                             <p><strong>Development cycle:</strong> 15 weeks</p>
                             <p><strong>Description:</strong> This project combines Django and jQuery to produce an editable document tree! Essentially this is a web-based reverse-engineering of basic Windows or Mac folder functions. It currently supports all CRUD operations and various transformations thereof. Works with placeholder "files" which could be adapted to be real files. Also contains a placeholder social media app.</p>
                         </div>
-                        <div class="carousel-item text-left p4">
+                        <div class="carousel-item text-left">
                             <p><strong>Link to URL:</strong> <a href="https://github.com/M-D-Elliott/CastleOfThePython/tree/master/dist" target="blank">Installer @ GitHub</a></p>
                             <p class="inline-block"><strong>Languages used:</strong></p> <div class="language py">Python</div>
                             <p><strong>Development cycle:</strong> 12 weeks</p>
@@ -201,13 +201,13 @@
                                 <li>Press Enter to show/hide in-game tutorial.</li>
                             </ul>
                         </div>
-                        <div class="carousel-item text-left p4">
+                        <div class="carousel-item text-left">
                             <p><strong>Link to URL:</strong> <a href="{% url 'other_projects:static' page='philosophy.html' %}" target="blank">Do you believe in time travel?</a></p>
                             <p class="inline-block"><strong>Languages used:</strong></p> <div class="language js">Javascript</div>, <div class="language css">CSS</div>, <div class="language html">HTML</div>, Bootstrap
                             <p><strong>Development cycle:</strong> 2 weeks</p>
                             <p><strong>Description:</strong> An interactive compilation of my proofs regarding the logical conclusion of time travel. Also includes a short introduction to Futurism and the Kardashev scale.</p>
                         </div>
-                        <div class="carousel-item text-left p4">
+                        <div class="carousel-item text-left">
                             <strong>Links: </strong>
                             <ul class="pl-4">
                                 <li><a href="{% static 'files/Resume-M.D.Elliott.doc' %}" download>Paper Resume</a></li>
@@ -221,7 +221,19 @@
                 </div>
             </div>
         </div>
+        <br /><br /><br />
+        <footer class="footer section-dark">
+            <div class="container">
+                <div class="half float-right center-y">
+                    <i>Composed December 2018</i>
+                </div>
+            </div>
+        </footer>
+        {% if request.get_host == '127.0.0.1:8000' %}
         <script src="{% static 'js/tools/getImageBrightness.js' %}"></script>
         <script src="{% static 'js/other_projects/resume/app.js' %}"></script>
+        {% else %}
+        <script src="{% static 'js/other_projects/resume/app_min.js' %}"></script>
+        {% endif %}
     </body>
 </html>

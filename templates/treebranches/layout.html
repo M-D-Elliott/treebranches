@@ -1,4 +1,5 @@
 {% load static from staticfiles %}
+{% load layout_extras %}
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -41,14 +42,15 @@
 					<div class="collapse navbar-collapse" id="navigation-2">
 						<ul class="nav navbar-nav navbar-right">
 							{% if user.is_authenticated %}
-							<li><a href="{% url 'myfiles:list' %}" class="btn btn-default btn-fill">My Projects</a></li>
-							<li><a href='#' class="btn btn-default btn-fill" data-toggle="modal" data-target="#postModal">Post</a></li>
-							<li><a href="{% url 'communities:list' %}" class="btn btn-warning btn-fill">Communities</a></li>
+							<li><a href="{% url 'myfiles:list' %}" class="btn {% highlight_button '/myfiles/list/' %} btn-fill">My Projects</a></li>
+							<li><a href="{% url 'posts:all' %}" class="btn {% highlight_button '/posts/' %} btn-fill">All Posts</a></li>
+							<li><a href="{% url 'communities:list' %}" class="btn {% highlight_button '/communities/' %} btn-fill">Communities</a></li>
+							<li><a href='#' class="btn btn-simple" data-toggle="modal" data-target="#postModal">New Post</a></li>
 							<li><a href="{% url 'accounts:logout' %}" class="btn btn-simple">Log out</a></li>
 							{% else %}
-							<li><a href="{% url 'accounts:signup' %}" class="btn btn-warning btn-fill">Create a new account?</a></li>
-							<li><a href="{% url 'posts:all' %}" class="btn btn-simple">Posts</a></li>
-							<li><a href="{% url 'accounts:login' %}" class="btn btn-simple">Log in</a></li>
+							<li><a href="{% url 'posts:all' %}" class="btn {% highlight_button '/posts/' %} btn-fill">All Posts</a></li>
+							<li><a href="{% url 'accounts:signup' %}" class="btn {% highlight_button '/accounts/signup/' %} btn-fill">Create a new account?</a></li>
+							<li><a href="{% url 'accounts:login' %}" class="btn {% highlight_button '/accounts/login/' %} btn-fill">Log in</a></li>
 							{% endif %}
 						</ul>
 					</div><!-- /.navbar-collapse -->
@@ -82,11 +84,16 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 		<!--  Plugins -->
+		{% if request.get_host == '127.0.0.1:8000' %}
 		<script src="{% static 'js/ct-paper-checkbox.js' %}"></script>
 		<script src="{% static 'js/ct-paper-radio.js' %}"></script>
 		<script src="{% static 'js/bootstrap-select.js' %}"></script>
 		<script src="{% static 'js/bootstrap-datepicker.js' %}"></script>
 		<script src="{% static 'js/ct-paper.js' %}"></script>
+		{% else %}
+		<script src="{% static 'js/treebranches_min.js' %}"></script>
+		{% endif %}
+
 		{% block plugins %}{% endblock %}
 	</body>
 </html>

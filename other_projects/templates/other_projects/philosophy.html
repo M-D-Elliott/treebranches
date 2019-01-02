@@ -163,7 +163,7 @@
                             <p><strong>Ethics:</strong> Creatures of this civilization can be referred to as "Kardashevian gods", or demi-gods, whose existence is inherently unethical. As such they are the natural enemy to all lower life. Ironically they could evolve from any organism.</p>
                         </div>
                         <div class="carousel-item text-left p4">
-                            <p><strong>Methods:</strong> Civilizations of Type VI and beyond are inherently contradictory to known physics.  A "Kardashevian God" would exist outside the tenth dimension. Only the tenth dimension exists there, therefore, it would be the tenth dimension. It would comprise all things in all times across all sets of rules or "precept". Because of the impossibility of omnipotence, omnipresence, and omniscience such a being should be impossible.</p>
+                            <p><strong>Methods:</strong> Civilizations of Type VI and beyond are inherently contradictory to known physics.  A "Kardashevian God" would exist outside the tenth dimension. Only the tenth dimension exists there, therefore it would be the tenth dimension. It would comprise all things in all times across all sets of rules or "precept". Because of the impossibility of omnipotence, omnipresence, and omniscience such a being should be impossible.</p>
                             <p><strong>Ethics:</strong> Unlike the Type V Civilization, a creature of this type cannot be measured ethically. This is because any action it takes is both for and against itself, a zero-sum game.</p>
                         </div>
                     </div>
@@ -177,8 +177,13 @@
             <small>&copy; 2018 Marcus Elliott &amp; BootStrap</small>
         </div>
         <!-- /footer -->
+        {% if request.get_host == '127.0.0.1:8000' %}
         <script src="{% static 'js/tools/getImageBrightness.js' %}"></script>
         <script src="{% static 'js/tools/jQ-displayBlockFilter.js' %}"></script>
         <script src="{% static 'js/other_projects/philosophy/app.js' %}"></script>
+        {% else %}
+        <script src="{% static 'js/other_projects/philosophy/app_min.js' %}"></script>
+        {% endif %}
+
     </body>
 </html>

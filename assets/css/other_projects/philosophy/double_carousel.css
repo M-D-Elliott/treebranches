@@ -3,14 +3,10 @@ img {
   max-height: 100%;
 }
 
-.carousel-inner,
-.carousel.slide,
-.carousel-item {
-    height: 100%;
-}
+
 
 .carousel-item.active {
-  display:block;
+  display: block;
 }
 
 .carousel-caption {
@@ -19,7 +15,6 @@ img {
 
 .carousel-holder {
   max-width: 500px;
-  max-height: 400px;
 }
 
 .carousel-control-prev-icon,

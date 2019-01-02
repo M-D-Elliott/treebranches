@@ -34,6 +34,11 @@
       </div>
     </div>
   </div>
+  {% if request.get_host == '127.0.0.1:8000' %}
+  <script type="text/javascript" src="{% static 'js/other_projects/calculator_pretty/app.js' %}"></script>
+  {% else %}
   <script type="text/javascript" src="{% static 'js/other_projects/calculator_pretty/app_min.js' %}"></script>
+  {% endif %}
+
 </body>
 </html>

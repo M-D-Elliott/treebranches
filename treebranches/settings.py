@@ -28,7 +28,6 @@ DEBUG = True
 ALLOWED_HOSTS = ['pythonmeek.pythonanywhere.com',
                  '127.0.0.1']
 
-
 # Application definition
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -47,6 +46,7 @@ INSTALLED_APPS = [
     'communities',
     'myfiles',
     'posts',
+    'treebranches',
     'other_projects',
 ]
 
