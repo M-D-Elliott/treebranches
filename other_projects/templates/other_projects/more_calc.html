@@ -2,7 +2,12 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <!--CSS-->
+  {% if request.get_host == '127.0.0.1:8000' %}
   <link rel="stylesheet" href="{% static 'css/other_projects/calculator_more/style.css' %}">
+  {% else %}
+  <link rel="stylesheet" href="{% static 'css/other_projects/calculator_more/styles_min.css' %}">
+  {% endif %}
+
   <head>
     <meta charset="utf-8">
     <title></title>

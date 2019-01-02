@@ -6,7 +6,11 @@
   <title></title>
   <form>
   </form>
+  {% if request.get_host == '127.0.0.1:8000' %}
   <link href={% static 'css/other_projects/calculator_pretty/style.css' %} rel="stylesheet">
+  {% else %}
+  <link href={% static 'css/other_projects/calculator_pretty/styles_min.css' %} rel="stylesheet">
+  {% endif %}
 </head>
 <body>
   <div class="holder">

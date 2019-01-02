@@ -22,8 +22,13 @@
          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
          <!--CSS-->
+         {% if request.get_host == '127.0.0.1:8000' %}
          <link rel="stylesheet" href="{% static 'css/other_projects/philosophy/styles.css' %}">
          <link rel="stylesheet" href="{% static 'css/other_projects/philosophy/double_carousel.css' %}">
+         {% else %}
+         <link rel="stylesheet" href="{% static 'css/other_projects/philosophy/styles_min.css' %}">
+         {% endif %}
+
     </head>
     <body class ="w-100 h-100">
         <a id="home" class="anchor"></a>
