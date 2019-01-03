@@ -45,7 +45,8 @@ function equalizeItemHeight(elements) {
         max_height = max_height > $(this).heightOfChildren() ? max_height : $(this).heightOfChildren();
     });
     elements.each(function() {
-        $(this).height(max_height + 10);
+        $(this).height(max_height + 30);
+        console.log('y')
     });
 };
 
