@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61f9afa5-4e6e-4f2e-83e6-3b97218edb95" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/other_projects/philosophy/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/other_projects/philosophy/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/other_projects/philosophy/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/other_projects/philosophy/app.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/other_projects/templates/other_projects/philosophy.html" beforeDir="false" afterPath="$PROJECT_DIR$/other_projects/templates/other_projects/philosophy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other_projects/templates/other_projects/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/other_projects/templates/other_projects/resume.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="resume.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="resume.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/other_projects/templates/other_projects/resume.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="238" column="55" selection-start-line="238" selection-start-column="55" selection-end-line="238" selection-end-column="55" />
+            <state relative-caret-position="351">
+              <caret line="87" column="56" selection-start-line="87" selection-start-column="56" selection-end-line="87" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -43,7 +40,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.min.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.min.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/other_projects/philosophy/app.min.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -138,13 +135,13 @@
         <option value="$PROJECT_DIR$/assets/css/treebranches_min.css" />
         <option value="$PROJECT_DIR$/other_projects/templates/other_projects/more_calc.html" />
         <option value="$PROJECT_DIR$/other_projects/templates/other_projects/pretty_calc.html" />
-        <option value="$PROJECT_DIR$/other_projects/templates/other_projects/resume.html" />
         <option value="$PROJECT_DIR$/templates/treebranches/layout.html" />
         <option value="$PROJECT_DIR$/myfiles/templates/myfiles/layout.html" />
         <option value="$PROJECT_DIR$/assets/js/my_files/my_files.min.js" />
         <option value="$PROJECT_DIR$/assets/js/other_projects/philosophy/app.js" />
         <option value="$PROJECT_DIR$/other_projects/templates/other_projects/philosophy.html" />
         <option value="$PROJECT_DIR$/assets/js/other_projects/philosophy/app.min.js" />
+        <option value="$PROJECT_DIR$/other_projects/templates/other_projects/resume.html" />
       </list>
     </option>
   </component>
@@ -680,13 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/other_projects/templates/other_projects/resume.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="238" column="55" selection-start-line="238" selection-start-column="55" selection-end-line="238" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/treebranches.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -747,6 +737,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="2467" selection-start-column="2467" selection-end-column="2467" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other_projects/templates/other_projects/resume.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="87" column="56" selection-start-line="87" selection-start-column="56" selection-end-line="87" selection-end-column="56" />
         </state>
       </provider>
     </entry>
