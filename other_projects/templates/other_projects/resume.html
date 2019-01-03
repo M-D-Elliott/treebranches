@@ -23,8 +23,9 @@
 
          <!--CSS-->
          {% if request.get_host == '127.0.0.1:8000' %}
-         <link rel="stylesheet" href="{% static 'css/other_projects/resume/styles.css' %}">
-         <link rel="stylesheet" href="{% static 'css/other_projects/philosophy/double_carousel.css' %}">
+         <!--<link rel="stylesheet" href="{% static 'css/other_projects/resume/styles.css' %}">-->
+         <!--<link rel="stylesheet" href="{% static 'css/other_projects/philosophy/double_carousel.css' %}">-->
+         <link rel="stylesheet" href="{% static 'css/other_projects/resume/styles.min.css' %}">
          {% else %}
          <link rel="stylesheet" href="{% static 'css/other_projects/resume/styles.min.css' %}">
          {% endif %}
