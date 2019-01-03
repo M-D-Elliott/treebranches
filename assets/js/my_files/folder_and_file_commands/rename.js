@@ -16,7 +16,7 @@ DirObject.prototype.changeName = function(new_name='') {
   // Assign the name icon the new name.
   name_icon.html('&nbsp;' + full_name);
   parseDirObjects(this.obj.parent()).sort();
-  return this;
+  return this.select();
 }
 
 

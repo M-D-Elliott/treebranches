@@ -2,23 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61f9afa5-4e6e-4f2e-83e6-3b97218edb95" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/css/other_projects/calculator_more/styles_min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/other_projects/calculator_more/styles.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/other_projects/calculator_pretty/styles_min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/other_projects/calculator_pretty/styles.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/other_projects/philosophy/styles_min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/other_projects/resume/styles_min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/other_projects/resume/styles.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/treebranches_min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/treebranches.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/my_files/my_files_min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/my_files/my_files.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/other_projects/calculator_more/app_min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/other_projects/calculator_more/app.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/other_projects/calculator_pretty/app_min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/other_projects/philosophy/app_min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/other_projects/philosophy/app.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/other_projects/resume/app_min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/other_projects/resume/app.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/treebranches_min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/treebranches.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/my_files/database/form_functions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/my_files/database/temporary.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/my_files/folder_and_file_commands/moveTo.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/my_files/folder_and_file_commands/moveTo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/my_files/folder_and_file_commands/rename.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/my_files/folder_and_file_commands/rename.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/my_files/my_files.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/my_files/my_files.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/my_files/system/runCommand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/my_files/system/tools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/my_files/system/undo.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myfiles/templates/myfiles/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/myfiles/templates/myfiles/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/other_projects/templates/other_projects/more_calc.html" beforeDir="false" afterPath="$PROJECT_DIR$/other_projects/templates/other_projects/more_calc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/other_projects/templates/other_projects/philosophy.html" beforeDir="false" afterPath="$PROJECT_DIR$/other_projects/templates/other_projects/philosophy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/other_projects/templates/other_projects/pretty_calc.html" beforeDir="false" afterPath="$PROJECT_DIR$/other_projects/templates/other_projects/pretty_calc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/other_projects/templates/other_projects/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/other_projects/templates/other_projects/resume.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/treebranches/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/treebranches/layout.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="resume.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="resume.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/other_projects/templates/other_projects/resume.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="247" column="61" selection-start-line="247" selection-start-column="61" selection-end-line="247" selection-end-column="61" />
+            <state relative-caret-position="317">
+              <caret line="238" column="55" selection-start-line="238" selection-start-column="55" selection-end-line="238" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -42,7 +36,7 @@
       <file leaf-file-name="pretty_calc.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/other_projects/templates/other_projects/pretty_calc.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
+            <state relative-caret-position="731">
               <caret line="43" column="89" selection-start-line="43" selection-start-column="89" selection-end-line="43" selection-end-column="89" />
             </state>
           </provider>
@@ -51,7 +45,7 @@
       <file leaf-file-name="philosophy.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/other_projects/templates/other_projects/philosophy.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
+            <state relative-caret-position="3213">
               <caret line="189" column="65" selection-start-line="189" selection-start-column="65" selection-end-line="189" selection-end-column="65" />
             </state>
           </provider>
@@ -69,8 +63,17 @@
       <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myfiles/templates/myfiles/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="109" column="45" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
+            <state relative-caret-position="484">
+              <caret line="108" column="10" lean-forward="true" selection-start-line="108" selection-start-column="10" selection-end-line="108" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my_files.min.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/js/my_files/my_files.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret column="21943" lean-forward="true" selection-start-column="21943" selection-end-column="21943" />
             </state>
           </provider>
         </entry>
@@ -78,8 +81,8 @@
       <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/treebranches/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+            <state relative-caret-position="409">
+              <caret line="99" column="18" lean-forward="true" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -126,7 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assets/css/my_files/context_menu.css" />
         <option value="$PROJECT_DIR$/assets/css/other_projects/calculator_pretty/style.css" />
         <option value="$PROJECT_DIR$/assets/js/other_projects/calculator_pretty/app.js" />
         <option value="$PROJECT_DIR$/templates/index.html" />
@@ -171,16 +173,17 @@
         <option value="$PROJECT_DIR$/assets/css/other_projects/philosophy/styles_min.css" />
         <option value="$PROJECT_DIR$/assets/css/other_projects/resume/styles_min.css" />
         <option value="$PROJECT_DIR$/assets/css/treebranches_min.css" />
-        <option value="$PROJECT_DIR$/templates/treebranches/layout.html" />
-        <option value="$PROJECT_DIR$/myfiles/templates/myfiles/layout.html" />
         <option value="$PROJECT_DIR$/other_projects/templates/other_projects/more_calc.html" />
         <option value="$PROJECT_DIR$/other_projects/templates/other_projects/philosophy.html" />
         <option value="$PROJECT_DIR$/other_projects/templates/other_projects/pretty_calc.html" />
         <option value="$PROJECT_DIR$/other_projects/templates/other_projects/resume.html" />
+        <option value="$PROJECT_DIR$/templates/treebranches/layout.html" />
+        <option value="$PROJECT_DIR$/myfiles/templates/myfiles/layout.html" />
+        <option value="$PROJECT_DIR$/assets/js/my_files/my_files.min.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="430" />
     <option name="y" value="130" />
     <option name="width" value="1440" />
@@ -211,6 +214,13 @@
               <item name="treebranches" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="treebranches" type="b2602c69:ProjectViewProjectNode" />
+              <item name="treebranches" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="my_files" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="treebranches" type="b2602c69:ProjectViewProjectNode" />
@@ -396,7 +406,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19127516" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19395973" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="R Packages" order="4" />
       <window_info anchor="right" id="R Graphics" order="3" />
@@ -514,9 +524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -524,9 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="20" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -565,37 +569,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/treebranches.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26573" selection-start-column="26573" selection-end-column="26573" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/my_files/file_commands/open.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/my_files/folder_and_file_commands/properties.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/my_files/my_files.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2720">
-          <caret column="24628" selection-start-column="24628" selection-end-column="24628" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myfiles/templates/myfiles/styles/images.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-139" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/myfiles/templates/myfiles/styles/images.css" />
     <entry file="file://$PROJECT_DIR$/myfiles/templates/myfiles/basic_context_menu.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/my_files/general.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/my_files/general.css" />
     <entry file="file://$PROJECT_DIR$/assets/css/my_files/forms.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -617,7 +601,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/my_files/my_files_min.css">
+    <entry file="file://$PROJECT_DIR$/assets/css/my_files/my_files.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="2372" selection-start-column="2372" selection-end-column="2372" />
@@ -634,13 +618,7 @@
     <entry file="file://$PROJECT_DIR$/myfiles/templates/myfiles/project.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/myfiles/templates/myfiles/layout_JS.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/myfiles/templates/myfiles/layout_JS.html" />
     <entry file="file://$PROJECT_DIR$/assets/css/other_projects/calculator_more/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -725,20 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/treebranches/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myfiles/templates/myfiles/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="109" column="45" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/other_projects/templates/other_projects/more_calc.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -748,22 +712,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/other_projects/templates/other_projects/philosophy.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
+        <state relative-caret-position="3213">
           <caret line="189" column="65" selection-start-line="189" selection-start-column="65" selection-end-line="189" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/other_projects/templates/other_projects/pretty_calc.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
+        <state relative-caret-position="731">
           <caret line="43" column="89" selection-start-line="43" selection-start-column="89" selection-end-line="43" selection-end-column="89" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/other_projects/templates/other_projects/resume.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="247" column="61" selection-start-line="247" selection-start-column="61" selection-end-line="247" selection-end-column="61" />
+        <state relative-caret-position="317">
+          <caret line="238" column="55" selection-start-line="238" selection-start-column="55" selection-end-line="238" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/treebranches.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret column="26573" selection-start-column="26573" selection-end-column="26573" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/treebranches/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="99" column="18" lean-forward="true" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myfiles/templates/myfiles/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="108" column="10" lean-forward="true" selection-start-line="108" selection-start-column="10" selection-end-line="108" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/my_files/my_files.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret column="21943" lean-forward="true" selection-start-column="21943" selection-end-column="21943" />
         </state>
       </provider>
     </entry>

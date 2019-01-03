@@ -8,7 +8,8 @@ DirObject.prototype.attachTo = function(new_base, sort=true) {
   // append the object to the new base folder
   // and adjust it's path accordingly.
   obj.appendTo(new_base_obj)
-     .attr('data-path', path)
+     .attr('data-path', path);
+  if (sort) { new_base.sort(); };
   if (new_base_obj.attr('data-form') === 'collapsed') {
     // hide the Dir Object then select the new base folder.
     obj.css('display', hidden);
@@ -18,7 +19,6 @@ DirObject.prototype.attachTo = function(new_base, sort=true) {
     obj.css('display', visible);
     this.select();
   };
-  if (sort) { new_base.sort(); };
   return this;
 };
 
